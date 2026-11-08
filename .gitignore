@@ -1,0 +1,5 @@
+
+.git/
+.module-manager/
+__pycache__/
+*.pyc
