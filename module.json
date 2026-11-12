@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "skills",
   "name": "Skills",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "repository": "https://github.com/ZhongTyler/AWS-Skills.git",
   "payload": ".",
   "entrypoints": {
@@ -48,7 +48,7 @@
       "schema_version": 1,
       "id": "research",
       "name": "Research",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "repository": "https://github.com/ZhongTyler/AWS-Research.git",
       "purpose": "Collect sources and compile traceable studies and reader navigation.",
       "interfaces": [
@@ -87,7 +87,7 @@
       "schema_version": 1,
       "id": "game-analysis-decision",
       "name": "GameAnalysisDecision",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "repository": "https://github.com/ZhongTyler/AWS-GameAnalysisDecision.git",
       "purpose": "Analyze game evidence and conditional design decisions.",
       "interfaces": [
@@ -113,7 +113,7 @@
       "schema_version": 1,
       "id": "game-project",
       "name": "GameProject",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "repository": "https://github.com/ZhongTyler/AWS-GameProject.git",
       "purpose": "Create an owned Godot project with maintenance and resource atlases.",
       "interfaces": [
@@ -147,7 +147,7 @@
     "protocol": 1,
     "source": "https://github.com/ZhongTyler/AgentWorkSpace/tree/main/scripts",
     "files": {
-      "module_manager.py": "bfa0d8c7ea6efda126b7a8c656409875994b4bd1256e6d90f5d75652a9aca2b0",
+      "module_manager.py": "faa9380a65ad962b51a22ba960b3f3a28a32c2afa2953498102aafb9aa6dda86",
       "module_docs.py": "b0d9cf2aaba187d14be679de61f16c3dfc9c8346ff4739d176fa58983ab7ae65"
     }
   }

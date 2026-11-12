@@ -24,6 +24,6 @@
 <!-- tyler-font-selection:v1 -->
 ## Host font selection
 
-When adding or replacing Chinese typefaces, addressing missing glyphs or numeral readability, or embedding font files for delivery, use the host font-selection guidance when available. In 接收方工作区 read `shared-skills/game-presentation/references/font-selection.md` under the workspace root; it covers optional Maoken discovery, original-author licenses, exact versions and target-render checks without loading the full game workflow. Reuse suitable existing fonts; ordinary copy or color edits do not require a font search. If unavailable, follow the host asset/license rules without inventing installation or publication permission.
+When adding or replacing Chinese typefaces, addressing missing glyphs or numeral readability, or embedding font files for delivery, use the host font-selection guidance when available. Read `game-presentation/references/font-selection.md` from the installed skill library when available under the workspace root; it covers optional Maoken discovery, original-author licenses, exact versions and target-render checks without loading the full game workflow. Reuse suitable existing fonts; ordinary copy or color edits do not require a font search. If unavailable, follow the host asset/license rules without inventing installation or publication permission.
 <!-- /tyler-font-selection:v1 -->
 ```

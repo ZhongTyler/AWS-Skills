@@ -112,6 +112,8 @@ addEventListener('popstate',e=>requestAnimationFrame(()=>{if(typeof e.state?.res
  result=bind_zoom_targets(result)
  out.mkdir(parents=True,exist_ok=True);target=out/'index.html';target.write_text(result,encoding='utf8',newline='\n')
  receipt={'input_sha256':spec['inputs'],'builder_sha256':sha(Path(__file__)),'output_sha256':sha(target),'format':'html-only','self_contained_images':True,'embedded_visual_assets':assets,'detailed_documents':coverage,'scenes':len(story['scenes']),'facts':'Existing reviewed inputs, no new game evidence','reader_effect':'unverified'}
+ from audit_html_dependencies import audit_html
+ receipt['html_dependencies']=audit_html(target)['summary']
  (out/'build-receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
  return receipt
 if __name__=='__main__':

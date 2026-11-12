@@ -204,6 +204,9 @@ def main():
         'pdf_font':str(args.font) if args.format in ('pdf','both') else None,
         'pdf_font_sha256':sha(args.font) if args.format in ('pdf','both') else None,
         'dependency_versions':{name:importlib.metadata.version(name) for name in ('reportlab','Pillow')} if args.format in ('pdf','both') else {}}
+    if args.format in ('html','both'):
+        from audit_html_dependencies import audit_html
+        receipt['html_dependencies']=audit_html(out/'index.html')['summary']
     (out/'build-receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
     print(json.dumps({'sections':len(spec['sections']),'files':list(receipt['outputs']),'source_files':len(files)},ensure_ascii=False))
 

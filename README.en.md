@@ -1,5 +1,7 @@
 # Skills
 
+2.1.0 contains 41 individually selectable methods.
+
 [简体中文](README.md)
 
 Select individual agent methods without enabling the whole library.
@@ -41,3 +43,7 @@ flowchart LR
 <!-- module-panorama:end -->
 
 The [AWS overview](https://github.com/ZhongTyler/AgentWorkSpace) presents the full module network. This module retains original third-party notices and the reviewed 1.30.0 source record. Independent module versioning starts at 2.0.0.
+
+## 2.1.0 library update
+
+Existing editing, interaction, evidence, research, runtime and workflow methods are updated. Select `game-change-audit` for scoped game reviews or `plain-language-zh` for reader-oriented editing. Install named skills using the existing selector. Package upgrades and installed client-skill upgrades are separate transactions.

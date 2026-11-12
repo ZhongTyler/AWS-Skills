@@ -1,5 +1,7 @@
 # Skills
 
+2.1.0 contains 41 individually selectable methods.
+
 
 [English](README.en.md)
 
@@ -89,10 +91,14 @@ python scripts/skills.py rollback --target <workspace> --transaction <transactio
 
 `source-fidelity`可独立用于原材料转写或来源保真复核，保留原作者归属、数字条件、必要反例和案例链；它不证明外部事实真实，也不附带作者知识库的审核流水线。盲评新增按需重复与稳定性细则，工作流方法补齐跨入口覆盖、反例与剩余范围说明；不自动运行评测、调用模型或启动其他Agent。
 
-库中提供`human-research-expression`与`anti-defensive-writing`，共39项。前者整理已有研究的人读表达，附完整渲染与核验脚本；HTML只用Python标准库，PDF按需配置ReportLab、Pillow与合法字体，不自动安装。推荐配合humanizer-zh、source-fidelity、evidence-audit；不可用时执行正文检查并如实注明。后者保留固定版本MIT原文、许可与宿主适配，普通润色无需额外调用。研究审查和Agent分工方法补齐查漏、返修复核与有界分工判据。所有方法可单独选择，安装不启动服务、模型或其他Agent。
+当前41项方法中包含`human-research-expression`与`anti-defensive-writing`。前者整理已有研究的人读表达，附完整渲染与核验脚本；HTML只用Python标准库，PDF按需配置ReportLab、Pillow与合法字体，不自动安装。推荐配合humanizer-zh、source-fidelity、evidence-audit；不可用时执行正文检查并如实注明。后者保留固定版本MIT原文、许可与宿主适配，普通润色无需额外调用。研究审查和Agent分工方法补齐查漏、返修复核与有界分工判据。所有方法可单独选择，安装不启动服务、模型或其他Agent。
 
 1.28.0补齐四项开发方法、已有评测分析与Finesse UI三专项入口，共39项。按问题选择，不强制串跑或自动派生Agent；Finesse只含已锁定的三专项，完整上游其他部分不算已安装。六项均无需其他业务包；原件、许可和来源随方法保留。
 
 本版新增五项方法；新增游戏工具是否可调用，以接收方实际安装能力为准，不以Tools或GamePresentation包存在推断。
 
 本版增加任务小工具、研究搜集、游戏取证和独立机会探索方法；成本检查与研究表达资源同步更新。宿主的可用工具和通信授权由接收方提供。
+
+## 2.1.0 library update
+
+Existing editing, interaction, evidence, research, runtime and workflow methods are updated. Select `game-change-audit` for scoped game reviews or `plain-language-zh` for reader-oriented editing. Install named skills using the existing selector. Package upgrades and installed client-skill upgrades are separate transactions.

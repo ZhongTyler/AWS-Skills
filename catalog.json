@@ -85,9 +85,6 @@
         "references/SKILL.original.txt": "3a4f260eb9f60b431782bf6d90f22afb480c0c67860267a032df58a3e1bd19cd",
         "references/UPSTREAM.json": "3c00445450b842b59f9a0ef661de7f4d69f821fca6b6e0bbf379090e5209dc6d"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/design-critique",
       "version": "1.30.0"
     },
@@ -102,9 +99,6 @@
         "references/SKILL.original.txt": "38f1efc807928030654218443ad07f6a37ac82de6b4d627a03113a3568d787b7",
         "references/UPSTREAM.json": "59e6145935aa7590933ba59049396664fb438f51c2e9a3de14433668b3da1cb1"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/design-handoff",
       "version": "1.30.0"
     },
@@ -144,11 +138,11 @@
     "evidence-audit": {
       "destination": ".agents/skills/evidence-audit",
       "files": {
-        "SKILL.md": "b4cfe9d6817612558f9423d17093b110c71e2b435fb2f02002d5da169a66792a",
+        "SKILL.md": "2cbe48967fade9c079bb03371c99e12c326d85c32e45189116979107dc5818fa",
         "references/research-review.md": "5d67bd982349d4e4f39219d1c2b0f0e80aecf3ec9b52e14a4c0408c957b57900"
       },
       "source": "library/evidence-audit",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "feedback-loop": {
       "destination": ".agents/skills/feedback-loop",
@@ -174,6 +168,17 @@
       "source": "library/finesse-ui",
       "version": "1.30.0"
     },
+    "game-change-audit": {
+      "destination": ".agents/skills/game-change-audit",
+      "files": {
+        "SKILL.md": "ca86e23761aa07252d3c1aaebede50bcd575ebe6f778a0341c5e646eef4ad9e9",
+        "references/calibration.md": "b2f59d2732dee7e224ebb882e37ab90225939d3f3cf74c7f66b503f9f1ebf1aa",
+        "references/interface-and-assets.md": "eebbd74e9dcd74830f1c31ccd0badcaccf86c903bce1bc8b0a3a82a1d862d1db",
+        "references/rules-and-runtime.md": "bce030ff610b2b06f8a87e299a30606095794289a6aad480b31e1c9c8088778a"
+      },
+      "source": "library/game-change-audit",
+      "version": "2.1.0"
+    },
     "game-decision-support": {
       "destination": ".agents/skills/game-decision-support",
       "files": {
@@ -190,11 +195,8 @@
         "agents/openai.yaml": "8b4d86f5253b2d1bef767c95b7c970b2c1e925727b5ebba4137cdcadda8fb33a",
         "references/game-evidence-routes.md": "ea8318a7e11dfe4fdf321e910f8dca19027e828b9aa12cc757ca3230dffa7a20"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/game-evidence-collection",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "game-feel": {
       "destination": ".agents/skills/game-feel",
@@ -207,38 +209,32 @@
         "references/UPSTREAM.json": "09997fd06c9314532a98cabac36a21ed80a6918aef9c59697f3d702e763ac8d5",
         "references/feedback-recipes.md": "f8cca962733b0b1f5d1db75fe966f6e13bf11015e39a04a849d6ff5c3e0e835e"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/game-feel",
       "version": "1.30.0"
     },
     "game-presentation": {
       "destination": ".agents/skills/game-presentation",
       "files": {
-        "SKILL.md": "eb0fde7a1b27d037e8d53a1c36dc64a3cd14dbfa59b8460314ce52e58fb24000",
-        "references/asset-handoff-patterns.md": "4aca78b45fdbb939b29606be48cd72e0b900df40ce18eae456a36734248295da",
-        "references/font-selection.md": "29c413f01adc6b13b1c65babb84c537985430d5bbe8412233df4c1a9b3bd32a9",
+        "SKILL.md": "2a8bd3f9279347a6c5e924066e60a7af800b4d9c6dd4f6be4e5743105d8b416e",
+        "references/asset-handoff-patterns.md": "e67ce595de94607e32678fb768b34371a790a88b001d510ceb07527f9f0edccc",
+        "references/font-selection.md": "cf084fd975ccf6b5c45b48a57f8a9229ab0808207a407fdefdff28a3bb9acbd5",
         "references/sprite-animation-production.md": "399013aaf641f2bd0bf477da0e655b7a9c68ad7be58c98cad588adecfb70d93e"
       },
       "source": "library/game-presentation",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "game-runtime-patterns": {
       "destination": ".agents/skills/game-runtime-patterns",
       "files": {
-        "SKILL.md": "522c1edd501af0fd836238cb9967c9aa3a722f254d982c0e36b6f6800b492886",
+        "SKILL.md": "0a4c47193edcabc96610cda5c74d8c5b5683f5df1f234231b3914c3ea5614917",
         "references/browser-replay-verification.md": "7829eb584e43ad305e93e444ea42d1909dad5671c8cbe08ef20d850a7053d908",
         "references/multiplayer-sessions.md": "72605076fecd22ec80ebe33f3561804a4a4ee51f7cbbde2477e588e8ad85068c",
         "references/performance-and-reuse.md": "1905c28989c3362381c3ebf60088b441c9b40ad975477f752eaa9e7506e8403a",
         "references/rule-boundaries.md": "e85fd8afde06db20002b9628c5fdde41b06db78318fb22038e17c985a05e5fd7",
         "references/runtime-recipes.md": "2c17846044ab6967ed1fca03b1868ed62ba8ead4797a78ac25808b4de3901285"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/game-runtime-patterns",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "game-ui-ux": {
       "destination": ".agents/skills/game-ui-ux",
@@ -251,9 +247,6 @@
         "references/UPSTREAM.json": "09997fd06c9314532a98cabac36a21ed80a6918aef9c59697f3d702e763ac8d5",
         "references/layout-and-flow.md": "961fc8c8e45a1ee5120e1deef9f6aef932ae3949e6f1ce26548b9d7616775d73"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/game-ui-ux",
       "version": "1.30.0"
     },
@@ -280,7 +273,7 @@
     "human-research-expression": {
       "destination": ".agents/skills/human-research-expression",
       "files": {
-        "SKILL.md": "d0faa8c96c32c6a8cb1a565c38b697f5bb9308539b04a695036fe0db0858a2e7",
+        "SKILL.md": "56e784a88145a88f2645bec55b9c6dcba3d20348c697168a547284c86ce6b5b6",
         "assets/media-observer/player.css": "deed4a01092259de126e9565bd85b652badcd1cbf291bbdfe79aff923618bdf9",
         "assets/media-observer/player.js": "ae1a77651ef28c4a3a43d4efad4f1b56d4590592bf321a6ada057a1a81024f36",
         "assets/media-observer/test.cjs": "1f6e7daebfc9f791fdfec57f97c00c2d51302b7d81b82b37ae8c42411cd6168d",
@@ -288,7 +281,7 @@
         "references/argument-quality.md": "6542ab7bf8942c4a41f5995aef0265a94a9bb5a80edec253c40652be8d112234",
         "references/carriers.md": "24364d1fb5ccf48f4165cfc69c799a2a26913f030a0c7617d75477ee88b6c27b",
         "references/domain-reading.md": "cee36c2c05db6d2811a56a9866f3a4a343a34aa3b06de4f25a39d485fd17d7cf",
-        "references/expression-selection.md": "d315f711d22b7ce4509d2ed39b69a9f18e9c5da083ae08a13eaaa92d5c5106f8",
+        "references/expression-selection.md": "e08b913936435ebe2d5ab37fe73cd6e055efae28445e807e6d292a6e96e05041",
         "references/full-report.md": "721a2f2073be239351ef0254215d41b47ae99581aae1b8d34bceb7909a973dae",
         "references/hierarchy.md": "b6bf862df52ceaedf40d21dbfe73708e284520643f6b4c9a5a6675e71c3eba2a",
         "references/interaction.md": "c3ea54651f10a5d1b98872542e0cca66b748d89b443836239d2fa3c82db93358",
@@ -297,47 +290,50 @@
         "references/reader-maintenance.md": "76383afb0953a1dd381131c6f36eab509f269e35012802d4f7d51d9a69fac70c",
         "references/rendering.md": "db505be9438d98428c96195024784f290cf39d39c897d0473f40ca4ae23de2b6",
         "references/reuse-and-cost.md": "387fb6de9399e656de53e3803173af1972fbc81b28fc7d38d0167ffe4e0a2bc4",
+        "references/sharing-and-dependencies.md": "3bb5c499ea8c4010126b81654d54a5e172b179489d3b2df2786a6b41b1507d51",
         "references/visual-explanation.md": "407f843610ada51a734ab1fa04d49b20912425b43ca83bdcb5a062e894e9be66",
-        "references/visual-recipes.md": "abe210bf91cb5facae4970642ce1e6489d79229e6a5092055bfd835d32f87edb",
-        "scripts/assemble_html.py": "04e49f90ae14c8872f2dfc2ecd5411ae839083571a6d04566505af52ea10be05",
+        "references/visual-recipes.md": "5cd84723c288bde17f13a5f0cd505d05f4c7602087052b102af419343ba1583a",
+        "scripts/assemble_html.py": "ac7b6b58f5b79b1dbff8549d2e96e2805e4a506f6f8d3fff7dddf01eff26447b",
+        "scripts/audit_html_dependencies.py": "f10d74b9b34f091236919928a005a25b4b83a25d9ae84bcdc45ec2e95cfcdd09",
         "scripts/enhance_reader.py": "f2fc242011b23d5e4e8962a92621711e9a5c74305a6e8f8efd3ab526c2193f6b",
         "scripts/parse_markdown.mjs": "51f31b739454c67e3ad5e5531e9feac8e1ef2df3b4a7447c3583f87d7bb7e348",
         "scripts/render_book.py": "53087d1b058bb431cd4f8dc3013400d2b819e3d0b20f2e2b57aef3cd8df5b2ba",
-        "scripts/render_report.py": "ca2bcc500c41226cd43f8db049607ca03f8f60ca3479f64960e6fd303412c085",
+        "scripts/render_report.py": "171c8d45dae579ee9aa8fbfe3d92a7c8cd190add35873f29327bab99284be1f7",
         "scripts/render_visual.py": "c232be352703177c74fb377819171d0bd82cefa8bad8b8ed587fa7dc1bc73841",
-        "scripts/render_visual_html.py": "a26aedc28c6ebd4b6df71a61792d449c105a6beea085c8043d36df372587b74e",
+        "scripts/render_visual_html.py": "feacc0183b178057b121aa87d1b048cc2f8049a73e0d5bdb539810c1c26e4a2c",
         "scripts/test_assemble_html.py": "2b16d6ec5d281c1d5df72915cbbbabb571988810048f03f6a5cd1d286c5fa163",
+        "scripts/test_audit_html_dependencies.py": "46dbe03ead726dc9bf788e3fc99c6e932dab159ef821134e79ffddbd78fa7186",
         "scripts/test_diagram_layout.py": "d2e8fe2e37f04b4836ebd6713f53d6e7ded0e46ccc6236bdf446bb231510b0c1",
         "scripts/test_enhance_reader.py": "9a485428579c0a7deacba704698805d5047c3871aeea5b92c985c3aee2965ac5",
-        "scripts/test_render_visual_html.py": "42419f97d65a4eb8f4cdbec11f48d116ed8d03f9ff303fabfdaf004e03408fd6",
+        "scripts/test_render_visual_html.py": "970b157e53736b7d245a40ec49acce73f027b0e1e4fab1cfda901c952c34d5c3",
         "scripts/verify_git_snapshot.py": "3f1fb154cbf7a630e291614c9c3c0ce9192e1d0d1d58c131d742e1e8d39d19a7"
       },
       "source": "library/human-research-expression",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "humanizer-zh": {
       "destination": ".agents/skills/humanizer-zh",
       "files": {
-        "SKILL.md": "4206df2462bb4730f289724b28277cb3133eec3e01163ef37562361d39a9f9ea",
+        "SKILL.md": "ad85ddaaa6d9d1b7d4bfd0be76e8506bdfde1e298f985b67c0c830fab225a238",
         "references/LICENSE": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7",
         "references/UPSTREAM.md": "100ceb8c078468179585e4a085c0bd8edd8b2e1f43814b9c73ac5917039bd8e8",
         "references/human-writing-LICENSE": "32ca81a9ae10dda7d18963c9eae733477073906b15ee498d02033c8966dbdcaa",
         "references/material-and-progression.md": "3b47f3db812d9ab8cce605cc5f4879d07427badb3eaf2ff3902014d9f6f0369f"
       },
       "source": "library/humanizer-zh",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "interaction-design": {
       "destination": ".agents/skills/interaction-design",
       "files": {
-        "SKILL.md": "eb96dfbb06bdd32cfb8487d2b0d3c16e5d16a66bacd698c2e14ae0eeb355742d",
-        "references/game-ui-patterns.md": "7f645e800efd339034a9807648eefcc998bab5f2262a55a73eebcacdb0c8a499",
+        "SKILL.md": "009860588b196de6072382a98b2379588c54c5ae8dfbde02eaf5e6124716b174",
+        "references/game-ui-patterns.md": "95a23f17d65267b992e0719ea61b4500d701d42749348bb490f22a9695a39368",
         "references/interaction-method.md": "f88283d151c006982a87c1fb59af680620ce7af456e241c3d373c56c1c2005d5",
-        "references/interaction-patterns.md": "928331a9d3b0a5dfd714c0bf2a246643bc8fd88a1a62034eaf88e8b9ec696706",
+        "references/interaction-patterns.md": "4029c35f084879f9a573e9eccad1dce33a21dae6a69be6de5d7aba8908382754",
         "references/interface-copy.md": "50480a6e74ba6021a729e8adff1d12cc934a0d840a3b86bfcbed88815d503ba5"
       },
       "source": "library/interaction-design",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "opportunity-flow": {
       "destination": ".agents/skills/opportunity-flow",
@@ -345,9 +341,6 @@
         "SKILL.md": "8240ee6f9dba152cd4dd53a3ec7037ffbed1f0d36ff7aff6d33e9f1683e6d504",
         "references/opportunity-flow.md": "05684b1b22978031682b8b369f19668ad5800eef9af04f1c8ee3523b751bb37f"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/opportunity-flow",
       "version": "1.30.0"
     },
@@ -357,11 +350,18 @@
         "SKILL.md": "b7b0c792db3718e83126b6a91b6a4c07d664db8eb3dc8eead985f9a5bef119cf",
         "references/production.md": "8f9f5f80dadd528166aad55b6787de0210c7037fb2c37a92df4f5bffc94ee2da"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/pixel-asset-production",
       "version": "1.30.0"
+    },
+    "plain-language-zh": {
+      "destination": ".agents/skills/plain-language-zh",
+      "files": {
+        "SKILL.md": "69bfa994f9d7bf556852fe49c03d847a550f2d1c57dde711b5b5dbc9fe56aac3",
+        "references/examples.md": "0ca685116563943fc78b123d1fd403f463f43d1bb51e02c27c241f71ff651b8d",
+        "references/sources.md": "d6ead94bd522e600164e7730cd1f0fb9af80549e47b2a271fe5f531a022b2a70"
+      },
+      "source": "library/plain-language-zh",
+      "version": "2.1.0"
     },
     "problem-clarifier": {
       "destination": ".agents/skills/problem-clarifier",
@@ -415,9 +415,6 @@
         "references/collection-routes.md": "f1ce90a61a3824f45126bae09144f020eb7cb08902aaebd3b4e7caad7c219393",
         "references/specialist-handoff.md": "4c5101566929f88e21dce1a03a6bf5756ad56e575eaebdbf23c929545763fcac"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/research-collection",
       "version": "1.30.0"
     },
@@ -439,9 +436,6 @@
         "agents/openai.yaml": "d6201ef8011997e56889c8f93d7d1414f7f3c62f81dfdf5b75ba4a6e823c58a5",
         "references/UPSTREAM.json": "f2ac9e5f20d5db634d9014697d38ff2493f368d48fca797827f9945a6e2e8832"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/session-handoff",
       "version": "1.30.0"
     },
@@ -471,32 +465,30 @@
       "destination": ".agents/skills/task-tooling",
       "files": {
         "SKILL.md": "176ba5a905afbbd9424da87eb678386f77d5684378cd1797b72e66181082cfc7",
-        "references/building-tools.md": "a3c6bc6f9835c18cc80874305d229ad5f815ad3594b2ff0658eaf3a12958c3bd"
+        "references/building-tools.md": "c1fa12748def55bd10f6b2e5218f5f81348ec77bf677c41eb5393dcd515e59b6"
       },
-      "optional": [],
-      "provides": [],
-      "required": [],
       "source": "library/task-tooling",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "workflow-closure": {
       "destination": ".agents/skills/workflow-closure",
       "files": {
-        "SKILL.md": "e0207701e1a5165e06efcd6ffe1448c9b27e794a4398d449188a83a2c4ff2525",
+        "SKILL.md": "01ccdb11d4b44dd25ce1533caf57d4adc5a15ef2f2ac580ba7db4851d40e9207",
         "references/khazix-LICENSE": "b7f53d07ea4ae2eef26a4f8b28cb7d4df95586e2aa713df408f1ffde9f5a0fea",
         "references/knowledge-consistency.md": "cf59c8a19474997ce9513177240c96fcae1a450c048eb99ac56d66abd95d3411",
         "references/reviewable-change.md": "76e04dd7ec1e83d06a76ff29c2230c048754408bf6d15dcf466c445aec95ffc4"
       },
       "source": "library/workflow-closure",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "workflow-redesign": {
       "destination": ".agents/skills/workflow-redesign",
       "files": {
-        "SKILL.md": "608c47a60471cedcd07603863f67de2777032a7581ab9c484bf653f909133e5d",
-        "references/agent-boundaries.md": "70b48d243ab49c676ad4db2bdb9c089e0a138ff18015f5a557cc35871582b8a2",
-        "references/cost-and-effect.md": "36e0734f8d7cf289fcb2e072cd388e4f92904c616b6807fc046d4d0ebf1d77de",
-        "references/delivery-and-validation.md": "b5b01afbd41ed7d0fcfc25e69498c6f0534bf9710a52dd356526a68876625adf",
+        "SKILL.md": "3cc79311adab00c9acb439b4b1bf2e15958990fb1d372cf2f63ed884f8a597d3",
+        "references/agent-boundaries.md": "6f75bdafb0aea747767286a262274e08eaf1609a4f00ebeb6fd3d05ea38f30fe",
+        "references/cost-and-effect.md": "5dbca4fedc2cd65e4bf9fbc9c9ab1ba1c4514c46ddb03c669abe2dfd89c4c4e9",
+        "references/cost-validation-20261106.json": "d3551240b9b555197e28709dcc3605bfe8c2f39162624d47b77150c742e81bdf",
+        "references/delivery-and-validation.md": "908cf3cca9d4603217cb3acf24ede60dae3936384d015d4e08473190218d037b",
         "references/retrospective.md": "6ef369c38002329764354cca08a8de7346f1a01f280869bd7b48c351531ab223",
         "scripts/read_context.py": "e0fdd646943249a5986a9abb83311950e46ea2d646cf1fb56b5da7f2183574ae",
         "scripts/test_read_context.py": "46bb6cd75d44cb36b4aaa97c801bc178cd2485e85fc343dbb3f0943a7cd99672",
@@ -504,7 +496,7 @@
         "scripts/workflow_cost.py": "119d23ce3b48862a9262d01a6658dbf440b6ce385665fde284ab81d4c40bef01"
       },
       "source": "library/workflow-redesign",
-      "version": "1.30.0"
+      "version": "2.1.0"
     },
     "writing-for-agents": {
       "destination": ".agents/skills/writing-for-agents",
@@ -520,7 +512,7 @@
       "version": "1.30.0"
     }
   },
-  "previous_version": "1.30.0",
+  "previous_version": "2.0.0",
   "schema_version": 1,
-  "version": "2.0.0"
+  "version": "2.1.0"
 }

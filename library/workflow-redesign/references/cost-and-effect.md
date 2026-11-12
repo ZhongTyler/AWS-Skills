@@ -65,7 +65,7 @@ python -B workflow_cost.py render --record <run.json>
 
 现场任务用`init --phase`在一次写入中建档并留下首个事件，核对返回的`timeline_started=true`、`first_event`与实际记录一致，再开始批量工作。单独`init`只建档，返回`timeline_started=false`；随后用`mark`才开始计时。已经漏测的阅读、撰写或尾段明确标unknown，保留原事件，不倒填成现场计时。
 
-现有宿主已记阶段时继续用原工具，可通过`import-research --record <run.json> --trace <原cost.json>`只读导入Research v1事件。不同历史trace分别保留，脚本不把重叠区间相加。其他宿主用同一observation接口；本包携带合成测试检查计量、范围与恢复接口，实际成本和效果沿接收方任务记录评价。
+现有宿主已记阶段时继续用原工具，可通过`import-research --record <run.json> --trace <原cost.json>`只读导入Research v1事件。不同历史trace分别保留，脚本不把重叠区间相加。其他宿主用同一observation接口；首版有开发／维护／制作profile回归，并用已有开发与维护记录运行check／summary／render，见[校准记录](cost-validation-20261106.json)。结构适用性和历史判断可核，实际节省效果仍待其真实任务验证。
 
 observation字段为`id,metric,value,unit,scope,window,group,confidence,coverage,evidence`。value为非负有限数或null，confidence取measured／estimated／unknown，coverage取complete／partial／unknown。evidence回指sources，sources含path、locator、sha256。`group`定义可比计数口径，`window`定义同一窗口；累积快照采用不同window，费用按不同币种unit保留。
 

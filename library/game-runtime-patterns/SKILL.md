@@ -33,3 +33,5 @@ description: 当游戏资源/场景生命周期、时间输入、坐标碰撞、
 ## 来源与便携性
 
 配方是基于[固定game-engine资料](https://github.com/github/awesome-copilot/tree/98b45a78d3ed316e78f005b60594d5c4a50588e3/skills/game-engine)及有界反例验证的独立提炼，不是上游原版安装。正文随本Skill分发，可离线使用；不依赖私人Research路径。参考末尾保留原出处和版本提醒，历史教程的代码、素材许可与当前API分别核对。任何引擎的未测试能力均不因本Skill而自动获得验证资格。
+
+已有游戏实现需要规则一致性、跨系统改动或交付前查漏时，按需调用可用的 `game-change-audit`，或读取同库的 `game-change-audit/SKILL.md`。本Skill提供具体运行配方，审计结果沿宿主问题记录处理。

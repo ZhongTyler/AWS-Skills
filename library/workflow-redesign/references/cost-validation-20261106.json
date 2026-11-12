@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-06",
+  "scope": "Historical development and maintenance record calibration; no new production actions.",
+  "cases": [
+    {
+      "record": {
+        "schema_version": 1,
+        "kind": "workflow_cost_effect",
+        "mode": "retrospective",
+        "task": {
+          "id": "calibration-development",
+          "workflow": "development",
+          "purpose": "分层执行契约实施的历史记录，评价工程完成与长期效率证据的差别。",
+          "scope": "原记录明确范围；历史成本不全",
+          "complexity": "多宿主接线、旧journal兼容、真实权限和可恢复交付。",
+          "quality_floor": "原宿主验收和保护要求",
+          "result_unit": "同范围且同质量的宿主任务"
+        },
+        "sources": {
+          "E1": {
+            "path": "WorkspaceOrchestration/pilots/WO-031.md",
+            "locator": "状态／验收及原限制",
+            "sha256": "bf347d5123a7e0549b4507d84a6b22803b014396c10cb198de44ef2f0cd4329b"
+          }
+        },
+        "events": [],
+        "observations": [
+          {
+            "id": "tokens",
+            "metric": "host_goal_tokens",
+            "unit": "tokens",
+            "value": null,
+            "scope": "该完整历史任务",
+            "window": "whole-task",
+            "group": "host-goal",
+            "confidence": "unknown",
+            "coverage": "unknown",
+            "evidence": [
+              "E1"
+            ]
+          }
+        ],
+        "assessment": {
+          "quality": "B0–B3实施与发布完成；匿名比较按预注册阈值并列，选择B依据机械失败覆盖。",
+          "use": "按原宿主记录解释，未重新运行或替原owner签发验收。",
+          "effect": "记录支持工程交付与有限测试，长期试点及生产效率仍未正式通过。",
+          "cost_judgment": "已定位质量／恢复与实际问题，完整投入未知；无法给整体性价比或节省率。",
+          "comparability": "仅校准方法能否保留宿主差异，未与游戏任务排名。",
+          "next_actions": [
+            "保留已交付契约；下一真实宿主命中时观察错误闭合、返工和人工介入，沿原review_when。"
+          ],
+          "evidence": [
+            "E1"
+          ]
+        }
+      },
+      "actual_cli_exit_codes": {
+        "check": 0,
+        "summary": 0,
+        "render": 0
+      }
+    },
+    {
+      "record": {
+        "schema_version": 1,
+        "kind": "workflow_cost_effect",
+        "mode": "retrospective",
+        "task": {
+          "id": "calibration-maintenance",
+          "workflow": "maintenance",
+          "purpose": "三期既有刊物显式维护的历史记录，评价状态保全、恢复与局部返工。",
+          "scope": "原记录明确范围；历史成本不全",
+          "complexity": "生产数据事务、时间窗、旧修订及微秒精度保全；维护窗口与恢复。",
+          "quality_floor": "原宿主验收和保护要求",
+          "result_unit": "同范围且同质量的宿主任务"
+        },
+        "sources": {
+          "E1": {
+            "path": "PersonalSite/docs/validation/gamehot-period-regenerate-20261102.md",
+            "locator": "状态／验收及原限制",
+            "sha256": "fd31b5acc08da2d03940b74d8cf58e43eb4eeeec23643464aac33650cce2d68c"
+          }
+        },
+        "events": [],
+        "observations": [
+          {
+            "id": "tokens",
+            "metric": "host_goal_tokens",
+            "unit": "tokens",
+            "value": null,
+            "scope": "该完整历史任务",
+            "window": "whole-task",
+            "group": "host-goal",
+            "confidence": "unknown",
+            "coverage": "unknown",
+            "evidence": [
+              "E1"
+            ]
+          }
+        ],
+        "assessment": {
+          "quality": "三期维护完成，新连接核63张表、API／HTML／MCP及恢复；微秒精度曾需定向修正。",
+          "use": "按原宿主记录解释，未重新运行或替原owner签发验收。",
+          "effect": "可确认本次维护及恢复，窗口超22秒用于已开始的恢复；自然新刊与长期收益未由本次证明。",
+          "cost_judgment": "已定位质量／恢复与实际问题，完整投入未知；无法给整体性价比或节省率。",
+          "comparability": "仅校准方法能否保留宿主差异，未与游戏任务排名。",
+          "next_actions": [
+            "保留精确时间文本CAS及独立新连接复核。成本没有完整数据，不为求效率重新执行生产维护。"
+          ],
+          "evidence": [
+            "E1"
+          ]
+        }
+      },
+      "actual_cli_exit_codes": {
+        "check": 0,
+        "summary": 0,
+        "render": 0
+      }
+    }
+  ]
+}

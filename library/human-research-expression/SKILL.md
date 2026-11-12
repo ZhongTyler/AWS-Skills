@@ -53,7 +53,9 @@ description: 为已有研究案例或复杂报告判断哪些内容需要图解�
 
 ## 按所选格式制作
 
-游戏深拆采用`study.json`分节图解格式时，使用宿主统一脚本入口（沿接收方维护入口）执行预检、同稿生成、导航、检查与版本绑定，避免临时重拼脚本。其他载体继续按下列分支制作；语义、人读与页面验收不由控制器代判。
+用户需要分享、离线阅读或单文件 HTML 时，读[单文件交付与资源依赖](references/sharing-and-dependencies.md)。复用已有渲染器与阅读组件，分别核对页面运行资源、内嵌附件正文及附件进一步引用的证据。将理解所需解释留在报告内，按实际检查范围说明通读、查证与复现的分享边界。
+
+游戏深拆采用`study.json`分节图解格式时，宿主提供对应流程时，可使用 Research 的[统一脚本入口](https://github.com/ZhongTyler/AWS-Research/blob/v2.1.0/game-research/deep-game-analysis/workflow-control.md)执行预检、同稿生成、导航、检查与版本绑定，避免临时重拼脚本。其他载体继续按下列分支制作；语义、人读与页面验收不由控制器代判。
 
 已有HTML需维护时读[文字主本与阅读层维护](references/reader-maintenance.md)。深拆新增解释先改study并同源生成README／units，再核HTML；共用阅读层工具仅处理明确声明的纯呈现改动，拒绝独立语义片段。复用未变原件和页面反馈，不逐案例复制完整适配器。
 

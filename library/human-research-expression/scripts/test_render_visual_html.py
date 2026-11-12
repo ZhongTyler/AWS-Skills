@@ -26,6 +26,7 @@ class HtmlProduction(unittest.TestCase):
   receipt=render(self.spec,self.root/'output');text=(self.root/'output/index.html').read_text(encoding='utf8')
   self.assertIn('src="data:image/png;base64,',text);self.assertNotIn(str(self.image),text)
   self.assertIn('总览 → 1项展开 → 小结',text);self.assertEqual(receipt['format'],'html-only')
+  self.assertTrue(receipt['html_dependencies']['static_runtime_embedded_or_internal'])
   self.assertFalse(list((self.root/'output').rglob('*.pdf')));self.assertNotIn('reportlab',sys.modules)
  def test_changed_evidence_rejected(self):
   self.image.write_bytes(b'changed')

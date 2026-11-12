@@ -70,7 +70,7 @@ python -X utf8 -B <skill目录>/scripts/read_context.py <JSON文件> --json-poin
 
 评测的用途是决定如何使用，不能变成追求满分的独立项目。更多角色、更多文档和更多评委都不自动提高证据质量。
 
-当“符合用户要求”与“符合宿主规范”容易被混为一个总分，按需复用可审查的变更（沿接收方维护入口）分开判断；这里只读方法，不因此触发提交/发布或固定双Agent。
+当“符合用户要求”与“符合宿主规范”容易被混为一个总分，按需复用[可审查的变更](../../workflow-closure/references/reviewable-change.md)分开判断；这里只读方法，不因此触发提交/发布或固定双Agent。
 
 ## 审查发现与审查器校准
 
@@ -84,7 +84,7 @@ python -X utf8 -B <skill目录>/scripts/read_context.py <JSON文件> --json-poin
 
 对照漏项、误报和实际行动价值；不能为了满足错误评分依据给正确答案添加无关限制。核查争议结论时同时看理由与结构化判定，保留原评审和后续裁决依据，不刷新旧分数掩盖分歧。审查器或Agent都不是事实裁决的替代品；新增步骤的准备、复核和返修成本纳入比较。
 
-当检查器/测试本身可能只会运行而不能拦错，按需用行为回归反查（沿接收方维护入口）核对独立预期与定向坏变体；不把校准样本说成未见效果数据。
+当检查器/测试本身可能只会运行而不能拦错，按需用[行为回归反查](../../systematic-debugging/references/behavioral-regressions.md)核对独立预期与定向坏变体；不把校准样本说成未见效果数据。
 
 复盘发现先查宿主已有lint/测试/CI命令及其实际接线：已有检查未接或失败被吞掉时先修消费位置，不重复造工具。确定的机械约束优先在合适边界执行，语义/设计取舍保留判断；不是所有发现都加hook，更不因缺全局hook强制改变正常任务。来源为[固定retro](https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/retro/SKILL.md)的条件化提炼。
 

@@ -105,6 +105,8 @@ def render(spec,out):
  if len(emitted_ids)!=len(set(emitted_ids)):raise ValueError('Generated HTML identity collision')
  target=out/'index.html';target.write_text(markup,encoding='utf8',newline='\n')
  receipt={'format':'html-only','scenes':len(spec['scenes']),'images':images,'source_hashes':spec.get('source_hashes',{}),'output_sha256':sha(target),'renderer_sha256':sha(Path(__file__)),'effect':'Content supplied by author; rendering does not prove understanding.'}
+ from audit_html_dependencies import audit_html
+ receipt['html_dependencies']=audit_html(target)['summary']
  (out/'build-receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
  return receipt
 

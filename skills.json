@@ -1,9 +1,9 @@
 {
-  "previous_version": "1.30.0",
+  "previous_version": "2.0.0",
   "schema_version": 1,
   "skills": [
     {
-      "description": "按用途推进游戏表现资源制作、真实引擎接入与可回退验证",
+      "description": "按用途推进游戏美术、UI、动画和音效资源准备、真实引擎接入与可恢复验证；适用于表现升级，不用于纯玩法数值修改。",
       "id": "game-presentation",
       "install_requires": [],
       "optional_modules": [
@@ -63,7 +63,7 @@
       "optional_modules": []
     },
     {
-      "description": "事实依据与推理链审计",
+      "description": "审查既有实质论断或研究报告的来源可靠性、证据覆盖与推理，按原目标查重要遗漏，并按需复核返修；不用于普通查事实、核对数量、运行测试、代码审查或从零广泛研究。",
       "id": "evidence-audit",
       "install_requires": [],
       "optional_modules": []
@@ -75,13 +75,13 @@
       "optional_modules": []
     },
     {
-      "description": "从目标重设计工作流框架、内容与接线，并按证据完成实施交付",
+      "description": "审查、复盘或重设计工作流，核对以往优化是否起效、当前产出与成本是否合理，并按证据保留或改进内容、职责和工具接线；也用于执行中重复、低增量或收尾迟滞，不用于普通进度汇报、文档润色或原因明确的局部修复。",
       "id": "workflow-redesign",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "按工作区权威合同执行分级、验证、提交、父仓 gitlink 闭合与交接",
+      "description": "当用户要求收尾、提交、完成并提交或暂停交接，或已授权任务进入最终闭合阶段时，按工作区合同完成验证、交互学习归属判断、主干集成、父仓指针闭合、推送与按需清理，并判断 AgentWorkSpace 与个人网站影响；不用于普通进度询问、只读解释或中间实现，不替代项目验收或授予产品发布权限。",
       "id": "workflow-closure",
       "install_requires": [],
       "optional_modules": []
@@ -105,13 +105,13 @@
       "optional_modules": []
     },
     {
-      "description": "润色已有中文文本，保留事实、确定程度与作者声音，减少空话、重复和模板化表达",
+      "description": "编辑中文文章、评论和文档中的空话、重复及模板化表达，让文字更自然，同时保留事实、确定程度和作者声音。适用于润色已有文本，不用于判断作者身份或保证通过 AI 检测器。",
       "id": "humanizer-zh",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "网页、App与游戏UI的状态连续、焦点、操作反馈与交互动效",
+      "description": "设计或修复网页、App与游戏UI的控件选型、选择与输入、导航弹层、状态反馈、界面文案取舍、拖拽和交互动效；按需保持连续操作、取消恢复、输入替代与减少运动，不用于纯视觉风格、角色素材制作或玩法规则设计。",
       "id": "interaction-design",
       "install_requires": [],
       "optional_modules": []
@@ -241,7 +241,19 @@
       "id": "game-evidence-collection",
       "install_requires": [],
       "optional_modules": []
+    },
+    {
+      "id": "game-change-audit",
+      "install_requires": [],
+      "optional_modules": [],
+      "description": "审计游戏规则改动、玩法实现或界面与美术资源交付，结合批准规格、实际产物和可复现状态定位退化、漏项及合理取舍；适用于改动评审、资源自审和验收前查漏，不用于泛泛游戏评论或只检查文件能否加载。"
+    },
+    {
+      "id": "plain-language-zh",
+      "install_requires": [],
+      "optional_modules": [],
+      "description": "将专业或抽象内容改写为目标读者能理解的日常表达。用于明确要求少术语、接地气，或非专业读者难以理解文案时；保留必要术语及准确含义，普通润色沿humanizer-zh。"
     }
   ],
-  "version": "2.0.0"
+  "version": "2.1.0"
 }
