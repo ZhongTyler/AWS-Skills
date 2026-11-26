@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "version": "2.2.0",
+  "source_revision": "b9534b297957e73066db16863fead90a1cf48dee",
+  "baseline": "dd8c8a11d78d62717648814c91244fa00c5382d3",
+  "source_files": [
+    {
+      "source": "shared-skills/game-presentation/references/art-production-and-cutout.md",
+      "sha256": "b28d0a0de1f2bd0639b008eae0b38350e4c0fb97d2bce3dcbeeabcdeaf3c93fc"
+    },
+    {
+      "source": "shared-skills/game-presentation/references/asset-handoff-patterns.md",
+      "sha256": "debc1dd10f289fa1706b926cdfa7944f1d5d5be3c05bc1669ab3b20b23a7a1db"
+    },
+    {
+      "source": "shared-skills/game-presentation/references/font-selection.md",
+      "sha256": "010296eee34d0b651a2694cbe7c7d6a5785c9cb1325b0274649ac013100076c1"
+    },
+    {
+      "source": "shared-skills/game-presentation/references/sprite-animation-production.md",
+      "sha256": "0d74d76d2d979368b1d085fcd2d8c98b1a10e983e2eac3f476c9418da92f8d94"
+    },
+    {
+      "source": "shared-skills/game-presentation/SKILL.md",
+      "sha256": "376801a59102294eb5050405ef8d994a2bc5eb7a170d33b1c5e0e989dfc8a0b7"
+    },
+    {
+      "source": "shared-skills/game-description-writing/references/steam-store.md",
+      "sha256": "c9f5142931d8e047aad3389dd4f03fdaee32323ad700df0065096f6a162b62c0"
+    },
+    {
+      "source": "shared-skills/game-description-writing/SKILL.md",
+      "sha256": "1e95d023050a4439bcbd16730cd2c4409c3880ef2a639b1c32aac12ee5fa82bf"
+    },
+    {
+      "source": "shared-skills/game-change-audit/references/calibration.md",
+      "sha256": "b2f59d2732dee7e224ebb882e37ab90225939d3f3cf74c7f66b503f9f1ebf1aa"
+    },
+    {
+      "source": "shared-skills/game-change-audit/references/interface-and-assets.md",
+      "sha256": "eebbd74e9dcd74830f1c31ccd0badcaccf86c903bce1bc8b0a3a82a1d862d1db"
+    },
+    {
+      "source": "shared-skills/game-change-audit/references/rules-and-runtime.md",
+      "sha256": "bce030ff610b2b06f8a87e299a30606095794289a6aad480b31e1c9c8088778a"
+    },
+    {
+      "source": "shared-skills/game-change-audit/SKILL.md",
+      "sha256": "a975b1f996909e6219862b78834a32c3f8511ab8399629ccadc4effd18d0e22e"
+    },
+    {
+      "source": "shared-skills/interaction-design/references/game-ui-patterns.md",
+      "sha256": "1e570eabd4f99358408b5fd8a76675e85ced38c6f6ab33856f17fbd4da0b5942"
+    },
+    {
+      "source": "shared-skills/interaction-design/references/interaction-method.md",
+      "sha256": "f88283d151c006982a87c1fb59af680620ce7af456e241c3d373c56c1c2005d5"
+    },
+    {
+      "source": "shared-skills/interaction-design/references/interaction-patterns.md",
+      "sha256": "c20bd722218de9f885b9a322f93bccc90e57af34a0388c402097ccd0982b265e"
+    },
+    {
+      "source": "shared-skills/interaction-design/references/interface-copy.md",
+      "sha256": "50480a6e74ba6021a729e8adff1d12cc934a0d840a3b86bfcbed88815d503ba5"
+    },
+    {
+      "source": "shared-skills/interaction-design/SKILL.md",
+      "sha256": "46e87d5cd58e98b47ffff4ace8ea4748dd50ec4a9a4bb043b99c6c91e3da37eb"
+    },
+    {
+      "source": "shared-skills/dual-layer-explainer/SKILL.md",
+      "sha256": "705de0d81aa12b83087e1d8b77cde0d31e6152a178bb6fbb6aa965e0e6eb336c"
+    },
+    {
+      "source": "shared-skills/workflow-closure/references/khazix-LICENSE",
+      "sha256": "b7f53d07ea4ae2eef26a4f8b28cb7d4df95586e2aa713df408f1ffde9f5a0fea"
+    },
+    {
+      "source": "shared-skills/workflow-closure/references/knowledge-consistency.md",
+      "sha256": "cf59c8a19474997ce9513177240c96fcae1a450c048eb99ac56d66abd95d3411"
+    },
+    {
+      "source": "shared-skills/workflow-closure/references/personalsite-consumer.md",
+      "sha256": "aa977ac1dc1775fe2014d749200057734d5d1d2724b009a7931be99d03765fb3"
+    },
+    {
+      "source": "shared-skills/workflow-closure/references/reviewable-change.md",
+      "sha256": "76e04dd7ec1e83d06a76ff29c2230c048754408bf6d15dcf466c445aec95ffc4"
+    },
+    {
+      "source": "shared-skills/workflow-closure/SKILL.md",
+      "sha256": "16703191d9cb6e0bf838a576b4b25290ba45a1f0786801ac0ec05b79ba2f5768"
+    },
+    {
+      "source": "shared-skills/humanizer-zh/references/human-writing-LICENSE",
+      "sha256": "32ca81a9ae10dda7d18963c9eae733477073906b15ee498d02033c8966dbdcaa"
+    },
+    {
+      "source": "shared-skills/humanizer-zh/references/LICENSE",
+      "sha256": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7"
+    },
+    {
+      "source": "shared-skills/humanizer-zh/references/material-and-progression.md",
+      "sha256": "3b47f3db812d9ab8cce605cc5f4879d07427badb3eaf2ff3902014d9f6f0369f"
+    },
+    {
+      "source": "shared-skills/humanizer-zh/references/UPSTREAM.md",
+      "sha256": "100ceb8c078468179585e4a085c0bd8edd8b2e1f43814b9c73ac5917039bd8e8"
+    },
+    {
+      "source": "shared-skills/humanizer-zh/SKILL.md",
+      "sha256": "71a66687211b80e902fb57eb9ce748e9d99ef1ceb24cffa7a6c6c510c9ed2e3f"
+    },
+    {
+      "source": "shared-skills/research-collection/references/collection-routes.md",
+      "sha256": "f1ce90a61a3824f45126bae09144f020eb7cb08902aaebd3b4e7caad7c219393"
+    },
+    {
+      "source": "shared-skills/research-collection/references/specialist-handoff.md",
+      "sha256": "4c5101566929f88e21dce1a03a6bf5756ad56e575eaebdbf23c929545763fcac"
+    },
+    {
+      "source": "shared-skills/research-collection/SKILL.md",
+      "sha256": "be587151650c955a3985825961bc57057fccf5ae2a919822691cc2e7c6f60bf1"
+    }
+  ],
+  "decisions": [
+    {
+      "name": "source-fidelity",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "opportunity-flow",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "game-presentation",
+      "decision": "adapted_committed_source",
+      "reason": "Portable authored delta; public adapters/license notices retained."
+    },
+    {
+      "name": "pixel-asset-production",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "game-description-writing",
+      "decision": "adapted_committed_source",
+      "reason": "Portable authored delta; public adapters/license notices retained."
+    },
+    {
+      "name": "game-development-portfolio",
+      "decision": "deferred",
+      "reason": "committed initial source exists; concurrent uncommitted revision/resources not selected; pending separate publication review"
+    },
+    {
+      "name": "game-decision-support",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "game-runtime-patterns",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "game-change-audit",
+      "decision": "adapted_committed_source",
+      "reason": "Portable authored delta; public adapters/license notices retained."
+    },
+    {
+      "name": "interaction-design",
+      "decision": "adapted_committed_source",
+      "reason": "Portable authored delta; public adapters/license notices retained."
+    },
+    {
+      "name": "task-tooling",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "feedback-loop",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "bidirectional-steelman",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "agent-blind-eval",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "problem-clarifier",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "dual-layer-explainer",
+      "decision": "adapted_committed_source",
+      "reason": "Portable authored delta; public adapters/license notices retained."
+    },
+    {
+      "name": "reference-deconstruction",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "horizontal-vertical-research",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "evidence-audit",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "reversible-experiment-design",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "workflow-redesign",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "workflow-closure",
+      "decision": "adapted_committed_source",
+      "reason": "Portable authored delta; public adapters/license notices retained."
+    },
+    {
+      "name": "godot-gdscript-patterns",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "systematic-debugging",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "property-based-testing",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "humanizer-zh",
+      "decision": "adapted_committed_source",
+      "reason": "Portable authored delta; public adapters/license notices retained."
+    },
+    {
+      "name": "plain-language-zh",
+      "decision": "retained_public_adaptation",
+      "reason": "Difference is private host routing, an existing equivalent method, original license integration, or frozen provenance; source overwrite would regress standalone use."
+    },
+    {
+      "name": "citation-management",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "eval-result-analysis",
+      "decision": "retained",
+      "reason": "No committed source difference."
+    },
+    {
+      "name": "research-collection",
+      "decision": "adapted_committed_source",
+      "reason": "Portable authored delta; public adapters/license notices retained."
+    }
+  ]
+}

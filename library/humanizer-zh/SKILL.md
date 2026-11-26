@@ -413,3 +413,8 @@ metadata:
 - [Humanizer-zh PR 39](https://github.com/op7418/Humanizer-zh/pull/39)：中文分类与 F 组检查点的基础；本修订重写条件、边界及示例。
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)：简洁表达与编辑检查的参考来源。
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)：原项目的观察来源，不作为作者身份判断或检测准确率的保证。
+
+
+## 可选候选服务
+宿主明确选择并配置文案候选工具、且已授权数据范围和费用时，可提交获准文字生成待审候选；工具不随本Skill交付，缺失时继续本方法。优先一次完整编辑；确需分批时按完整自然章节，保留全稿简报、来源范围与回填身份。
+只读结构、元数据、来源定位和版本由宿主保存。候选返回后逐篇对照原稿、事实、引文、数字、条件及整体叙述再决定采用。无收益或失真时保留原文；失败、部分返回或过期版本不成为完成。工具运行、语义审核与正式采用分别记录，沿宿主已有审核和恢复入口闭合。

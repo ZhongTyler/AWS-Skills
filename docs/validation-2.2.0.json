@@ -1,0 +1,28 @@
+{
+  "status": "pass_with_baseline_link_observations",
+  "cli_checks": 20,
+  "skills": 42,
+  "client_installations": 84,
+  "license_provenance_files_unchanged": 42,
+  "resolved_relative_links": 167,
+  "baseline_unresolved_links": [
+    {
+      "file": "library\\domain-modeling\\GLOSSARY-FORMAT.md",
+      "target": "./src/ordering/GLOSSARY.md",
+      "status": "unchanged_baseline_reference_or_example"
+    },
+    {
+      "file": "library\\domain-modeling\\GLOSSARY-FORMAT.md",
+      "target": "./src/billing/GLOSSARY.md",
+      "status": "unchanged_baseline_reference_or_example"
+    },
+    {
+      "file": "library\\domain-modeling\\GLOSSARY-FORMAT.md",
+      "target": "./src/fulfillment/GLOSSARY.md",
+      "status": "unchanged_baseline_reference_or_example"
+    }
+  ],
+  "new_broken_links": 0,
+  "network_calls": 0,
+  "quality_or_automatic_selection_measured": false
+}

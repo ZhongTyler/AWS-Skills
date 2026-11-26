@@ -1,64 +1,64 @@
 {
-  "previous_version": "2.0.0",
+  "previous_version": "2.1.0",
   "schema_version": 1,
   "skills": [
     {
-      "description": "按用途推进游戏美术、UI、动画和音效资源准备、真实引擎接入与可恢复验证；适用于表现升级，不用于纯玩法数值修改。",
-      "id": "game-presentation",
-      "install_requires": [],
-      "optional_modules": [
-        "game-presentation"
-      ]
-    },
-    {
-      "description": "按游戏设计与开发缺口选择Knowledge、GameAnalysisDecision、Research或REA，消费结果回到宿主",
-      "id": "game-decision-support",
-      "install_requires": [],
-      "optional_modules": [
-        "game-analysis-decision",
-        "knowledge",
-        "research"
-      ]
-    },
-    {
-      "description": "观察、调节、复现或比较受阻时引用共用方法，复用或补齐最小反馈入口",
-      "id": "feedback-loop",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "双向钢人论证与决策澄清",
-      "id": "bidirectional-steelman",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "候选策略的匿名对照评测与可执行评测协议",
+      "description": "当需要实际评测候选提示词、流程或回答策略，或交付可执行评测协议时，组织预注册匿名对照与独立评分，按需自主判断是否重复生成观察稳定性；不用于普通方案选型、参数比较、单份回答审查或仅审计既有评测结论。",
       "id": "agent-blind-eval",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "澄清目标与约束，形成可行动的问题",
-      "id": "problem-clarifier",
+      "description": "\"改写论文、技术报告、审稿回复和技术SOP中的重复免责、层叠试探或薄弱主线，保留证据、必要限定与操作含义；支持直接点名和现有写作Skill按需调用，普通润色无需额外加载。\"",
+      "id": "anti-defensive-writing",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "以直观模型对应专业机制，按需操作算法、检索、推断与资源过程",
+      "description": "当目标已清楚、两种立场各有实质理由且关键前提会改变选择时，构造双方最强论证与条件化建议；不用于普通参数对比、事实查询、已拍板执行或尚需定义问题的困惑。",
+      "id": "bidirectional-steelman",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "Retrieve and verify scholarly reference metadata, resolve DOI/PMID/arXiv identifiers, and format or deduplicate BibTeX when a task needs academic citations. Use only for a concrete scholarly-reference need; ordinary web questions, clipping, Knowledge ingestion, and evidence reasoning alone do not trigger this skill.",
+      "id": "citation-management",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+      "id": "codebase-design",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "Get structured design feedback on usability, hierarchy, and consistency. Trigger with \"review this design\", \"critique this mockup\", \"what do you think of this screen?\", or when sharing a Figma link or screenshot for feedback at any stage from exploration to final polish.",
+      "id": "design-critique",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, component props, interaction states, responsive breakpoints, edge cases, and animation details.",
+      "id": "design-handoff",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
+      "id": "domain-modeling",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "当用户需要理解机制为何成立、如何运作及类比边界时，用直观模型对应准确术语；算法、协议、检索、推断或资源过程可按需做成可操作解释。普通定义、翻译、代码注释和明确实施不自动触发。",
       "id": "dual-layer-explainer",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "从优秀范例反向提炼可迁移机制",
-      "id": "reference-deconstruction",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "纵向演化与横向比较的可追溯研究",
-      "id": "horizontal-vertical-research",
+      "description": "分析已有AI对照或重复试验，拆解题型准确度、部分符合、生成稳定性、置信度、错误来源与全流程消耗，并复查分析缺漏；不用于启动新盲评、普通参数选型或只核对一个总分。",
+      "id": "eval-result-analysis",
       "install_requires": [],
       "optional_modules": []
     },
@@ -69,38 +69,86 @@
       "optional_modules": []
     },
     {
-      "description": "设计低成本、可逆的最小实验",
-      "id": "reversible-experiment-design",
+      "description": "当开发或实验任务因状态难观察、参数反复调整、问题难复现或结果难比较而受阻时，按共用方法复用或补齐最小反馈入口，并验证实际生效、比较与恢复；不限表现层，不用于普通解释、一次明确修改或无实际瓶颈时预建平台。",
+      "id": "feedback-loop",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "审查、复盘或重设计工作流，核对以往优化是否起效、当前产出与成本是否合理，并按证据保留或改进内容、职责和工具接线；也用于执行中重复、低增量或收尾迟滞，不用于普通进度汇报、文档润色或原因明确的局部修复。",
-      "id": "workflow-redesign",
+      "description": "按实际缺口审查组件状态、配置流程或产品操作界面，选用固定版本Finesse专项参考；不用于普通文字润色、已定方案的小修或强制换风格。",
+      "id": "finesse-ui",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "当用户要求收尾、提交、完成并提交或暂停交接，或已授权任务进入最终闭合阶段时，按工作区合同完成验证、交互学习归属判断、主干集成、父仓指针闭合、推送与按需清理，并判断 AgentWorkSpace 与个人网站影响；不用于普通进度询问、只读解释或中间实现，不替代项目验收或授予产品发布权限。",
-      "id": "workflow-closure",
+      "id": "game-change-audit",
+      "install_requires": [],
+      "optional_modules": [],
+      "description": "审计游戏规则改动、玩法实现或界面与美术资源交付，结合批准规格、实际产物和可复现状态定位退化、漏项及合理取舍；适用于改动评审、资源自审和验收前查漏，不用于泛泛游戏评论或只检查文件能否加载。"
+    },
+    {
+      "description": "游戏设计或开发的下一关键判断缺少经验、案例、专业分析或发行产物证据时，按缺口选择可用的 Knowledge、GameAnalysisDecision、Research 或 REA，并写回宿主；不用于既定规格的机械实现、普通源码调试或纯状态查询。",
+      "id": "game-decision-support",
+      "install_requires": [],
+      "optional_modules": [
+        "game-analysis-decision",
+        "knowledge",
+        "research"
+      ]
+    },
+    {
+      "id": "game-description-writing",
+      "description": "撰写或重组面向玩家的游戏介绍，包括 Steam 商店页、短描述、关于这款游戏、游戏详情和试玩描述。个人作品集借用玩法段结构，作者口吻由作品集 Skill 负责。设计规格、技术交接和纯润色沿原入口。",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "Godot 4 GDScript 的场景、信号、状态机与性能模式",
+      "description": "为单款游戏研究搜集并核对具体规则、版本、发行包、截图与操作过程，选择源码、发行物或多模态取证路径；由通用研究搜集按需调用，不用于一般游戏新闻或直接生成整作研究结论。",
+      "id": "game-evidence-collection",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "\"为机制已正确的命中、落地、拾取等事件选择震屏、顿帧、缓动与音画反馈配方，按重要性分档并保持恢复；不替代控制器、镜头跟随或玩法规则设计。\"",
+      "id": "game-feel",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "按用途推进游戏美术、UI、动画和音效资源准备、真实引擎接入与可恢复验证；适用于表现升级，不用于纯玩法数值修改。",
+      "id": "game-presentation",
+      "install_requires": [],
+      "optional_modules": [
+        "game-presentation"
+      ]
+    },
+    {
+      "description": "当游戏资源/场景生命周期、时间输入、坐标碰撞、规则视图、联机会话或性能复用存在具体缺口，或浏览器游戏缺少可核验操作回放时，选择宿主适配配方并验证；不用于引擎选型、纯美术或无缺口全量架构重建。",
+      "id": "game-runtime-patterns",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "\"实现或修复游戏HUD与菜单的布局缩放、安全区、键鼠/手柄焦点、返回路径和状态更新；按当前引擎与宿主结构采用，不用于普通网页视觉风格或纯玩法规则。\"",
+      "id": "game-ui-ux",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices.",
       "id": "godot-gdscript-patterns",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "针对不确定、间歇性或跨组件故障的根因诊断与修复验证",
-      "id": "systematic-debugging",
+      "description": "当研究问题需要连接历史演化与同类差异时，做有来源的纵向追踪和横向比较；不用于快速概览、查当前事实、按已给规格列表或核查单项既有论断，不因“比较”一词触发。",
+      "id": "horizontal-vertical-research",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "面向输入域、往返、幂等性与状态不变量的性质测试设计与审查",
-      "id": "property-based-testing",
+      "description": "为已有研究案例或复杂报告判断哪些内容需要图解、动态或交互，并按理解任务组织人读表达；适用于规划、制作和审查报告表达，不替代原研究取证，也不用于仅修页面样式。",
+      "id": "human-research-expression",
       "install_requires": [],
       "optional_modules": []
     },
@@ -117,80 +165,8 @@
       "optional_modules": []
     },
     {
-      "description": "按需核对学术引用元数据、解析DOI/PMID/arXiv与整理BibTeX",
-      "id": "citation-management",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "按目标用户与阶段评审可用性、信息层级和一致性，给出有依据的优先建议",
-      "id": "design-critique",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "从准备实施的设计补齐布局、组件状态、边界与验收规格",
-      "id": "design-handoff",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "对照原材料保留论证、数字条件、前提反例和案例机制，不替代外部验真",
-      "id": "source-fidelity",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "把已有研究按读者任务组织为讲解稿、图解或完整报告，区分内容核验与制作验证",
-      "id": "human-research-expression",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "修改论文、技术报告、审稿回复及技术SOP的重复免责和薄弱主线，保留必要限定",
-      "id": "anti-defensive-writing",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "设计深模块接口、复杂度边界与测试接缝",
-      "id": "codebase-design",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "澄清领域术语和真实架构决定，复用宿主词表与ADR",
-      "id": "domain-modeling",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "围绕具体设计问题制作可撤回的逻辑或界面原型",
-      "id": "prototype",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "编写Agent文档、Skill及条件触发指针",
-      "id": "writing-for-agents",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "分析已有评测的正确性、稳定性、排序与成本",
-      "id": "eval-result-analysis",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "按实际缺口使用组件、配置流程与产品界面专项参考",
-      "id": "finesse-ui",
-      "install_requires": [],
-      "optional_modules": []
-    },
-    {
-      "description": "当游戏资源/场景生命周期、时间输入、坐标碰撞、规则视图、联机会话或性能复用存在具体缺口，或浏览器游戏缺少可核验操作回放时，选择宿主适配配方并验证；不用于引擎选型、纯美术或无缺口全量架构重建。",
-      "id": "game-runtime-patterns",
+      "description": "当用户希望从已有经历或能力系统探索副业、服务产品或职业转型机会，并形成优先级与行动计划，或要运行经历到机会的七步提示词时使用；普通简历润色、单项薪酬查询和仅研究提示词本身不自动启动本流程。",
+      "id": "opportunity-flow",
       "install_requires": [],
       "optional_modules": []
     },
@@ -201,26 +177,32 @@
       "optional_modules": []
     },
     {
-      "description": "\"在换会话、上下文重置或长任务暂停时准备可恢复交接，或从指定交接入口续接已授权工作；复用项目记录并核对当前产物和owner，普通进度询问不创建交接文件。\"",
-      "id": "session-handoff",
+      "id": "plain-language-zh",
+      "install_requires": [],
+      "optional_modules": [],
+      "description": "将专业或抽象内容改写为目标读者能理解的日常表达。用于明确要求少术语、接地气，或非专业读者难以理解文案时；保留必要术语及准确含义，普通润色沿humanizer-zh。"
+    },
+    {
+      "description": "当目标冲突或问题含义不清、不同理解会改变下一必要动作时，将困惑澄清为可行动问题；不用于目标明确的修复、事实查询、普通缺参数或已知选项的取舍，也不因“帮我”措辞触发。",
+      "id": "problem-clarifier",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "\"为机制已正确的命中、落地、拾取等事件选择震屏、顿帧、缓动与音画反馈配方，按重要性分档并保持恢复；不替代控制器、镜头跟随或玩法规则设计。\"",
-      "id": "game-feel",
+      "description": "\"Writes, reviews, and debugs property-based tests — Hypothesis, fast-check, proptest, jqwik, rapid, and Echidna or Medusa for Solidity invariants. Use whenever tests should cover a whole input domain instead of a hand-picked list of examples: encode/decode and serialize/deserialize pairs, parsers, canonicalizers and normalizers, validators, numeric and Decimal types, comparators and sort order, data structures, and smart-contract state invariants. Also use when adding cases to an existing @given, fast-check, or proptest suite, when judging whether existing property tests assert anything real, and when a generator has shrunk a counterexample and you need to tell a wrong property from a genuine bug. Not for coverage-guided binary fuzzing (libFuzzer, AFL), mutation-testing campaigns, static analysis, benchmarking, or end-to-end UI tests.\"",
+      "id": "property-based-testing",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "\"实现或修复游戏HUD与菜单的布局缩放、安全区、键鼠/手柄焦点、返回路径和状态更新；按当前引擎与宿主结构采用，不用于普通网页视觉风格或纯玩法规则。\"",
-      "id": "game-ui-ux",
+      "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+      "id": "prototype",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "当任务因反复人工转译、批量校对、领域编辑或重复操作而低效，且缺少合适入口时，判断是否值得选用、适配或制作小工具；按需自主完成可供人和Agent使用的操作与真实消费验证。一次明确修改或现有命令已足够时直接完成。",
-      "id": "task-tooling",
+      "description": "当用户要从具体范例学会可迁移做法时，反向拆解成果、机制及适用条件；不用于单纯摘要、翻译、照图实施、事实验真或游戏体验问题诊断，材料是截图不构成触发理由。",
+      "id": "reference-deconstruction",
       "install_requires": [],
       "optional_modules": []
     },
@@ -231,29 +213,53 @@
       "optional_modules": []
     },
     {
-      "description": "当用户希望从已有经历或能力系统探索副业、服务产品或职业转型机会，并形成优先级与行动计划，或要运行经历到机会的七步提示词时使用；普通简历润色、单项薪酬查询和仅研究提示词本身不自动启动本流程。",
-      "id": "opportunity-flow",
+      "description": "当尚未决定的方向可通过有界现实反馈区分时，设计低成本、可撤回且有停止条件的最小实验；不用于已批准实施的常规测试、匿名候选评测或已有 GameAnalysisDecision 证据化问题的 ExperimentPlan 编译。",
+      "id": "reversible-experiment-design",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "description": "为单款游戏研究搜集并核对具体规则、版本、发行包、截图与操作过程，选择源码、发行物或多模态取证路径；由通用研究搜集按需调用，不用于一般游戏新闻或直接生成整作研究结论。",
-      "id": "game-evidence-collection",
+      "description": "\"在换会话、上下文重置或长任务暂停时准备可恢复交接，或从指定交接入口续接已授权工作；复用项目记录并核对当前产物和owner，普通进度询问不创建交接文件。\"",
+      "id": "session-handoff",
       "install_requires": [],
       "optional_modules": []
     },
     {
-      "id": "game-change-audit",
+      "description": "将原材料消化、改写为知识正文，或对照来源检查派生正文的保真度时，识别无源新增、数字条件失真、前提反例丢失和空壳案例；不用于普通润色、外部事实验真或只检查格式。",
+      "id": "source-fidelity",
       "install_requires": [],
-      "optional_modules": [],
-      "description": "审计游戏规则改动、玩法实现或界面与美术资源交付，结合批准规格、实际产物和可复现状态定位退化、漏项及合理取舍；适用于改动评审、资源自审和验收前查漏，不用于泛泛游戏评论或只检查文件能否加载。"
+      "optional_modules": []
     },
     {
-      "id": "plain-language-zh",
+      "description": "Diagnose nontrivial bugs when the cause is uncertain, fixes have failed, behavior is intermittent, or failures cross component boundaries. Use to distinguish hypotheses and verify a repair; ordinary obvious typo fixes do not require a separate debugging workflow.",
+      "id": "systematic-debugging",
       "install_requires": [],
-      "optional_modules": [],
-      "description": "将专业或抽象内容改写为目标读者能理解的日常表达。用于明确要求少术语、接地气，或非专业读者难以理解文案时；保留必要术语及准确含义，普通润色沿humanizer-zh。"
+      "optional_modules": []
+    },
+    {
+      "description": "当任务因反复人工转译、批量校对、领域编辑或重复操作而低效，且缺少合适入口时，判断是否值得选用、适配或制作小工具；按需自主完成可供人和Agent使用的操作与真实消费验证。一次明确修改或现有命令已足够时直接完成。",
+      "id": "task-tooling",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "当用户要求收尾、提交、完成并提交或暂停交接，或已授权任务进入最终闭合阶段时，按工作区合同完成验证、交互学习归属判断、主干集成、父仓指针闭合、推送与按需清理，并判断 AgentWorkSpace 与个人网站影响；不用于普通进度询问、只读解释或中间实现，不替代项目验收或授予产品发布权限。",
+      "id": "workflow-closure",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "审查、复盘或重设计工作流，核对以往优化是否起效、当前产出与成本是否合理，并按证据保留或改进内容、职责和工具接线；也用于执行中重复、低增量或收尾迟滞，不用于普通进度汇报、文档润色或原因明确的局部修复。",
+      "id": "workflow-redesign",
+      "install_requires": [],
+      "optional_modules": []
+    },
+    {
+      "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+      "id": "writing-for-agents",
+      "install_requires": [],
+      "optional_modules": []
     }
   ],
-  "version": "2.1.0"
+  "version": "2.2.0"
 }

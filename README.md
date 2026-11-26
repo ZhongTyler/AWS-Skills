@@ -1,6 +1,6 @@
 # Skills
 
-2.1.0 contains 41 individually selectable methods.
+2.2.0 contains 42 individually selectable methods.
 
 
 [English](README.en.md)
@@ -45,7 +45,7 @@ flowchart LR
 虚线表示可选协作。具体用途与接口见 module.json 和协作说明。 / Dashed edges indicate optional cooperation. See module.json and the cooperation guide.
 <!-- module-panorama:end -->
 
-这是一份可选择安装的方法库。安装本 package 只把库放进 modules/skills，不会自动启用其中全部 Skill。包含开发方法、研究与决策、中文润色、工作流及游戏支持共 39 项；按实际任务选择，普通任务无需为了展示流程调用 Skill。
+这是一份可选择安装的方法库。安装本 package 只把库放进 modules/skills，不会自动启用其中全部 Skill。包含开发方法、研究与决策、中文润色、工作流及游戏支持共 42 项；按实际任务选择，普通任务无需为了展示流程调用 Skill。
 
 Python 3.10+，无第三方依赖。先列出目录，再选择安装到用户工作区（默认 Codex 的 .agents/skills）：
 
@@ -71,7 +71,7 @@ python scripts/skills.py rollback --target <workspace> --transaction <transactio
 
 许可按每个 Skill 的原来源保留：Humanizer-zh、systematic-debugging、godot-gdscript-patterns 为其声明的 MIT；property-based-testing 为 CC BY-SA 4.0，含来源与变更说明。其他原创内容原授权不变，不对整个集合施加覆盖原许可的新限制。入口校验与可安装性不代表方法长期效果已经验证。
 
-`feedback-loop`在观察、调节、复现或比较成为当前瓶颈时使用，涵盖数值、AI、输入、生成、性能和表现。正文只引用meta的共用反馈方法；未装meta也可沿Skill中的固定版本公开链接读取，不复制方法或强制安装整套框架。普通修改与现有工具足够时不预建平台，长期触发率/净节时尚无保证。
+`feedback-loop`在观察、调节、复现或比较成为当前瓶颈时使用，涵盖数值、AI、输入、生成、性能和表现。随Skill交付可独立读取的反馈参考；宿主已有同等方法时复用其入口，不要求meta或整套框架。普通修改与现有工具足够时不预建平台，长期触发率/净节时尚无保证。
 
 `interaction-design`只拥有界面状态与操作反馈的共用方法，网页视觉方向仍归frontend-design，游戏资产与引擎交付仍归GamePresentation。可独立选装；[现有frontend的可选接线](integrations/frontend-design.md)不自动改写外部Skill。游戏流程也可按需引用同一入口，不复制方法或互相加载整套流程。
 
@@ -91,7 +91,7 @@ python scripts/skills.py rollback --target <workspace> --transaction <transactio
 
 `source-fidelity`可独立用于原材料转写或来源保真复核，保留原作者归属、数字条件、必要反例和案例链；它不证明外部事实真实，也不附带作者知识库的审核流水线。盲评新增按需重复与稳定性细则，工作流方法补齐跨入口覆盖、反例与剩余范围说明；不自动运行评测、调用模型或启动其他Agent。
 
-当前41项方法中包含`human-research-expression`与`anti-defensive-writing`。前者整理已有研究的人读表达，附完整渲染与核验脚本；HTML只用Python标准库，PDF按需配置ReportLab、Pillow与合法字体，不自动安装。推荐配合humanizer-zh、source-fidelity、evidence-audit；不可用时执行正文检查并如实注明。后者保留固定版本MIT原文、许可与宿主适配，普通润色无需额外调用。研究审查和Agent分工方法补齐查漏、返修复核与有界分工判据。所有方法可单独选择，安装不启动服务、模型或其他Agent。
+当前42项方法中包含`human-research-expression`与`anti-defensive-writing`。前者整理已有研究的人读表达，附完整渲染与核验脚本；HTML只用Python标准库，PDF按需配置ReportLab、Pillow与合法字体，不自动安装。推荐配合humanizer-zh、source-fidelity、evidence-audit；不可用时执行正文检查并如实注明。后者保留固定版本MIT原文、许可与宿主适配，普通润色无需额外调用。研究审查和Agent分工方法补齐查漏、返修复核与有界分工判据。所有方法可单独选择，安装不启动服务、模型或其他Agent。
 
 1.28.0补齐四项开发方法、已有评测分析与Finesse UI三专项入口，共39项。按问题选择，不强制串跑或自动派生Agent；Finesse只含已锁定的三专项，完整上游其他部分不算已安装。六项均无需其他业务包；原件、许可和来源随方法保留。
 
@@ -102,3 +102,18 @@ python scripts/skills.py rollback --target <workspace> --transaction <transactio
 ## 2.1.0 library update
 
 Existing editing, interaction, evidence, research, runtime and workflow methods are updated. Select `game-change-audit` for scoped game reviews or `plain-language-zh` for reader-oriented editing. Install named skills using the existing selector. Package upgrades and installed client-skill upgrades are separate transactions.
+
+## 2.2.0 候选更新
+
+新增game-description-writing；更新交互资源反馈、生产状态验证、原画分层、解释媒体可选路由、候选服务边界和独立收尾。共42项，作品集与流程图待后续审核。见[本版审阅](docs/2.2.0-review.md)。
+
+~~~mermaid
+flowchart LR
+  goal[Task and host authority] --> gap[Current capability gap]
+  gap --> method[Selected Skill and references]
+  method --> tool[Configured tool or direct work]
+  tool --> review[Host validation and adoption]
+  review --> feedback[Evidence to actual owner]
+~~~
+
+图表示文档路由与职责，不代表已测得自动选路准确率。缺工具时沿宿主方法；安装验证不证明方法效果、艺术采用或长期节时。

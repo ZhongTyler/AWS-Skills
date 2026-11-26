@@ -51,3 +51,5 @@
 独立归纳自当前安装的OpenAI work-pets 0.1.6之create-pet、sprite-sheet-contract及稳定提帧/预览/质量脚本，和game-studio 0.1.2的sprite-pipeline；对真实冻结资产的有限原版脚本对照发现了逐帧贴底消除图内位移的反例。方法可独立阅读，原脚本按安装版本发现和调用，不在此复制插件代码、承诺再分发权或保存私人角色案例。
 
 Pets特定行列、九个状态、工作状态名称、16视线、尺寸、Library与上传/激活是其宿主合同，不成为游戏默认布局或新增账号/MCP前置。[官方Pets说明](https://learn.chatgpt.com/docs/pets)说明产品使用；游戏素材权利、角色采用与引擎能力仍分别核实。
+
+已有绘制原画需要保持笔触并做分层／网格动作时，读[生图与保形方法](art-production-and-cutout.md)，先核像素归属、隐藏补全和零动作母版，再以实际导出帧交动画审阅器。

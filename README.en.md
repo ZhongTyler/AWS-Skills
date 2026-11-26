@@ -1,6 +1,6 @@
 # Skills
 
-2.1.0 contains 41 individually selectable methods.
+2.2.0 contains 42 individually selectable methods.
 
 [简体中文](README.md)
 
@@ -47,3 +47,18 @@ The [AWS overview](https://github.com/ZhongTyler/AgentWorkSpace) presents the fu
 ## 2.1.0 library update
 
 Existing editing, interaction, evidence, research, runtime and workflow methods are updated. Select `game-change-audit` for scoped game reviews or `plain-language-zh` for reader-oriented editing. Install named skills using the existing selector. Package upgrades and installed client-skill upgrades are separate transactions.
+
+## 2.2.0 candidate changes
+
+Adds game-description-writing; updates UI feedback, production-state checks, layered artwork, optional explanatory media, candidate-service boundaries and standalone closure. 42 selectable skills; portfolio and flow-diagram drafts remain outside. See the [review](docs/2.2.0-review.md).
+
+~~~mermaid
+flowchart LR
+  goal[Task and host authority] --> gap[Current capability gap]
+  gap --> method[Selected Skill and references]
+  method --> tool[Configured tool or direct work]
+  tool --> review[Host validation and adoption]
+  review --> feedback[Evidence to actual owner]
+~~~
+
+This is documented routing, not measured automatic selection. Tools remain optional. Installation checks establish packaging and recovery, not method effectiveness or long-term savings.

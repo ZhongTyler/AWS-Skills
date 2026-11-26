@@ -1,10 +1,13 @@
 {
-  "component_id": "skills",
-  "file_count": 244,
-  "generated_at": "2026-11-08T12:16:48+08:00",
-  "generator_version": "3.0.0",
-  "manifest_sha256": "52acf26ac45c80c8f4d9922e3fa3939f954a86ef6da8faf1039b5e8c819dff2d",
-  "preview": false,
   "release_schema": 1,
-  "source_revision": "e02cabe7296b6c9b24f66295186c8057740b7463"
+  "component_id": "skills",
+  "generator_version": "standalone-review-1",
+  "source_revision": "b9534b297957e73066db16863fead90a1cf48dee",
+  "version": "2.2.0",
+  "previous_version": "2.1.0",
+  "public_skills": 42,
+  "preview": true,
+  "generated_at": "2026-11-27T00:50:32.513122+08:00",
+  "catalog_sha256": "4bd1239f07efd6f502a5dae09810482b2160d9d77e16c19e5d06ac6033693ae5",
+  "file_count": 273
 }
