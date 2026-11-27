@@ -1,5 +1,5 @@
 {
-  "previous_version": "2.2.1",
+  "previous_version": "2.2.2",
   "schema_version": 1,
   "skills": [
     {
@@ -71,6 +71,16 @@
       "description_original": "Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, component props, interaction states, responsive breakpoints, edge cases, and animation details.",
       "upstream_url": "https://github.com/anthropics/knowledge-work-plugins",
       "origin_kind": "recorded_external_method"
+    },
+    {
+      "id": "document-organization",
+      "description": "组织或重构面向人读的清单、规划、资料索引、README与工作入口，保留查找、比较、续接和持续更新所需的信息功能。纯语句润色、代理执行合同和业务流程改造沿已有入口。",
+      "install_requires": [],
+      "optional_modules": [],
+      "display_name_zh": "持续文档组织",
+      "description_original": "组织或重构面向人读的清单、规划、资料索引、README与工作入口，保留查找、比较、续接和持续更新所需的信息功能。纯语句润色、代理执行合同和业务流程改造沿已有入口。",
+      "upstream_url": null,
+      "origin_kind": "workspace_maintained_method"
     },
     {
       "description": "建立并梳理项目的领域模型。用于讨论代码中的业务术语、编写或调整术语表，以及记录或修改架构决策。",
@@ -167,6 +177,16 @@
       "origin_kind": "workspace_maintained_method"
     },
     {
+      "id": "game-development-portfolio",
+      "description": "组织在研游戏的作品介绍、完整详情和开发案例。按读者问题与版位选材，讲清游戏怎样运转、关键规则为何这样设计，以及成品长处是怎样做出来的。已发布游戏仅在需要讲开发过程时使用。Steam 短描述、纯玩法介绍、普通作品卡片和纯润色沿各自入口。",
+      "install_requires": [],
+      "optional_modules": [],
+      "display_name_zh": "游戏开发作品介绍",
+      "description_original": "组织在研游戏的作品介绍、完整详情和开发案例。按读者问题与版位选材，讲清游戏怎样运转、关键规则为何这样设计，以及成品长处是怎样做出来的。已发布游戏仅在需要讲开发过程时使用。Steam 短描述、纯玩法介绍、普通作品卡片和纯润色沿各自入口。",
+      "upstream_url": null,
+      "origin_kind": "workspace_maintained_method"
+    },
+    {
       "description": "为单款游戏研究搜集并核对具体规则、版本、发行包、截图与操作过程，选择源码、发行物或多模态取证路径；由通用研究搜集按需调用，不用于一般游戏新闻或直接生成整作研究结论。",
       "id": "game-evidence-collection",
       "install_requires": [],
@@ -185,6 +205,16 @@
       "description_original": "\"为机制已正确的命中、落地、拾取等事件选择震屏、顿帧、缓动与音画反馈配方，按重要性分档并保持恢复；不替代控制器、镜头跟随或玩法规则设计。\"",
       "upstream_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
       "origin_kind": "recorded_external_method"
+    },
+    {
+      "id": "game-flow-diagrams",
+      "description": "当需要绘制或审查游戏流程图、玩法循环图或资源流转图时，沿真实构建标出玩家动作、状态转折与资源去向，核对反馈循环和移动端可读性。",
+      "install_requires": [],
+      "optional_modules": [],
+      "display_name_zh": "游戏流程与资源图",
+      "description_original": "当需要绘制或审查游戏流程图、玩法循环图或资源流转图时，沿真实构建标出玩家动作、状态转折与资源去向，核对反馈循环和移动端可读性。",
+      "upstream_url": null,
+      "origin_kind": "workspace_maintained_method"
     },
     {
       "description": "按用途推进游戏美术、UI、动画和音效资源准备、真实引擎接入与可恢复验证；适用于表现升级，不用于纯玩法数值修改。",
@@ -429,6 +459,6 @@
       "origin_kind": "recorded_external_method"
     }
   ],
-  "version": "2.2.2",
+  "version": "2.3.0",
   "reader_locale": "locales/zh-CN.json"
 }

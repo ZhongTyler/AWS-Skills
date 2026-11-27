@@ -2,18 +2,19 @@
   "release_schema": 1,
   "component_id": "skills",
   "generator_version": "standalone-review-1",
-  "source_revision": "02ce9cb29a64ac43237e60bcc9e969668fad02e3",
-  "version": "2.2.2",
-  "previous_version": "2.2.1",
-  "public_skills": 42,
+  "source_revision": "929514191b1e80bc43f046d57c23a69ed6966336",
+  "version": "2.3.0",
+  "previous_version": "2.2.2",
+  "public_skills": 45,
   "preview": true,
-  "generated_at": "2026-11-27T10:05:56.362235+08:00",
-  "catalog_sha256": "48a25af5aca47c533dbb154554d30154b6c6fdc662f67c04daadd93276d9cf5c",
-  "file_count": 323,
+  "generated_at": "2026-11-27T15:11:02.635080+08:00",
+  "catalog_sha256": "e411a1131dcc03926360b9ccf790018fabc3b417e423d03dd2862faca69042a2",
+  "file_count": 334,
   "localization": {
     "status": "reviewed_for_publication",
-    "canonical_locale_sha256": "b842182bb82fa9661e325c65c71d92c6f05e7d4db76d901ea668ed2c41844ad0",
+    "canonical_locale_sha256": "9b7b6e84184cba22102efd0ea318ecce75cd3b1506c903cb27dbd8bdf6145114",
     "site_snapshot_sha256": "f02d6481d8a3cd83818a5d7054a03c234d02564fa15ac0c596a6c20ad53b5175",
-    "review_record_sha256": "ed4717530f1576a8fa5fc1fb66d450939bc7a3f3084ea2c8d40d4c0dbdb97500"
+    "review_record_sha256": "ed4717530f1576a8fa5fc1fb66d450939bc7a3f3084ea2c8d40d4c0dbdb97500",
+    "new_method_review": "docs/source-review-2.3.0.json"
   }
 }

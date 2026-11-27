@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "version": "2.3.0",
+  "public_baseline": "bceff9ed6a9d2f809726fec5d7486e0d74b1cbaa",
+  "source_commit": "929514191b1e80bc43f046d57c23a69ed6966336",
+  "document_organization_reviewed_source_commit": "8865eac8606a5d6628e4551583df283c674e20ff",
+  "source_files": [
+    {
+      "id": "document-organization",
+      "source": "shared-skills/document-organization/SKILL.md",
+      "destination": "library/document-organization/SKILL.md",
+      "sha256": "80ac88c5cc22de9da5c08f829260ce3787f83079c254b515ef81d0b9339538ee",
+      "source_commit": "929514191b1e80bc43f046d57c23a69ed6966336"
+    },
+    {
+      "id": "game-development-portfolio",
+      "source": "shared-skills/game-development-portfolio/SKILL.md",
+      "destination": "library/game-development-portfolio/SKILL.md",
+      "sha256": "5ed862a8a629fd215bf4d0e4a19f1c15e067fab05c9efa6e7ed0d0e9fc635edf",
+      "source_commit": "929514191b1e80bc43f046d57c23a69ed6966336"
+    },
+    {
+      "id": "game-development-portfolio",
+      "source": "shared-skills/game-development-portfolio/references/full-project-detail.md",
+      "destination": "library/game-development-portfolio/references/full-project-detail.md",
+      "sha256": "4cd32d6edba9b52ca247d8f310c2d85236b6eae3ebb024881d4fc1b441703e5b",
+      "source_commit": "929514191b1e80bc43f046d57c23a69ed6966336"
+    },
+    {
+      "id": "game-flow-diagrams",
+      "source": "shared-skills/game-flow-diagrams/SKILL.md",
+      "destination": "library/game-flow-diagrams/SKILL.md",
+      "sha256": "19939669d4b17bd43f669d16161a97f01901868875911942aa7f0d9977f599f7",
+      "source_commit": "929514191b1e80bc43f046d57c23a69ed6966336"
+    }
+  ],
+  "new_methods": [
+    "document-organization",
+    "game-development-portfolio",
+    "game-flow-diagrams"
+  ],
+  "public_skills": 45,
+  "license_review": "Three workspace-maintained generic methods published under the existing package MIT license; no new third-party code or assets. Existing upstream notices and original files remain unchanged.",
+  "adaptation": "Exact committed method bytes plus separate Chinese reader entries. No private examples, source reports, local paths, accounts or required executor.",
+  "method_cooperation": "document-organization selects structure and retained information; editing follows humanizer/anti-defensive when useful. Portfolio selects reader questions and evidence; description-writing and flow diagrams are optional specific branches. Diagram review traces actual actions/states/resources. Routes are documentary; automatic selection is unmeasured.",
+  "limits": [
+    "Case walkthroughs are method checks, not new reader/UI acceptance or gameplay evidence.",
+    "No new model/copy-polish calls; original 42 reviewed locale rows are unchanged.",
+    "Target-reader formats and actual game facts still require host validation."
+  ]
+}

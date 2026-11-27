@@ -1,6 +1,8 @@
 # Skills
 
-2.2.0 contains 42 individually selectable methods.
+The library contains 45 individually selectable methods.
+
+2.3.0 adds document-organization, game-development-portfolio and game-flow-diagrams. Each works independently with user-provided documents or game evidence. Optional editing and diagram methods do not require a private workspace, Tools or online service. See the [review](docs/2.3.0-review.md).
 
 [简体中文](README.md)
 

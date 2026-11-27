@@ -13,6 +13,7 @@
 | [代码模块设计](../library/codebase-design/SKILL.md) | codebase-design | 用深模块的设计方法审视代码接口、职责边界和实现细节，寻找简化接口、提高可测试性及便于智能体理解代码的机会；也供其他方法引用这套设计术语。 | [原仓库](https://github.com/mattpocock/skills) |
 | [设计评审](../library/design-critique/SKILL.md) | design-critique | 从可用性、信息层级和一致性出发提供结构化设计反馈。适用于评审界面、设计稿、Figma 链接或截图，可用于探索阶段到最终完善阶段。 | [原仓库](https://github.com/anthropics/knowledge-work-plugins) |
 | [设计开发交接](../library/design-handoff/SKILL.md) | design-handoff | 将已准备进入开发的设计整理成交接规格，覆盖布局、设计变量、组件参数、交互状态、响应式断点、边界情况和动效细节。 | [原仓库](https://github.com/anthropics/knowledge-work-plugins) |
+| [持续文档组织](../library/document-organization/SKILL.md) | document-organization | 组织或重构面向人读的清单、规划、资料索引、README与工作入口，保留查找、比较、续接和持续更新所需的信息功能。纯语句润色、代理执行合同和业务流程改造沿已有入口。 | 工作区维护 |
 | [领域建模](../library/domain-modeling/SKILL.md) | domain-modeling | 建立并梳理项目的领域模型。用于讨论代码中的业务术语、编写或调整术语表，以及记录或修改架构决策。 | [原仓库](https://github.com/mattpocock/skills) |
 | [直观与专业双层解释](../library/dual-layer-explainer/SKILL.md) | dual-layer-explainer | 当用户需要理解机制为何成立、如何运作及类比边界时，用直观模型对应准确术语；算法、协议、检索、推断或资源过程可按需做成可操作解释。普通定义、翻译、代码注释和明确实施不自动触发。 | 工作区维护 |
 | [评测结果分析](../library/eval-result-analysis/SKILL.md) | eval-result-analysis | 分析已有 AI 对照或重复试验，拆解题型准确度、部分符合、生成稳定性、置信度、错误来源与全流程消耗，并复查分析缺漏；不用于启动新盲评、普通参数选型或只核对一个总分。 | 工作区维护 |
@@ -22,8 +23,10 @@
 | [游戏改动审查](../library/game-change-audit/SKILL.md) | game-change-audit | 审计游戏规则改动、玩法实现或界面与美术资源交付，结合批准规格、实际产物和可复现状态定位退化、漏项及合理取舍；适用于改动评审、资源自审和验收前查漏，不用于泛泛游戏评论或只检查文件能否加载。 | 工作区维护 |
 | [游戏设计决策支持](../library/game-decision-support/SKILL.md) | game-decision-support | 游戏设计或开发的下一关键判断缺少经验、案例、专业分析或发行产物证据时，按缺口选择可用的 Knowledge、GameAnalysisDecision、Research 或 REA，并写回宿主；不用于既定规格的机械实现、普通源码调试或纯状态查询。 | 工作区维护 |
 | [游戏介绍写作](../library/game-description-writing/SKILL.md) | game-description-writing | 撰写或重组面向玩家的游戏介绍，包括 Steam 商店页、短描述、关于这款游戏、游戏详情和试玩描述。个人作品集借用玩法段结构，作者口吻由作品集 Skill 负责。设计规格、技术交接和纯润色沿原入口。 | 工作区维护 |
+| [游戏开发作品介绍](../library/game-development-portfolio/SKILL.md) | game-development-portfolio | 组织在研游戏的作品介绍、完整详情和开发案例。按读者问题与版位选材，讲清游戏怎样运转、关键规则为何这样设计，以及成品长处是怎样做出来的。已发布游戏仅在需要讲开发过程时使用。Steam 短描述、纯玩法介绍、普通作品卡片和纯润色沿各自入口。 | 工作区维护 |
 | [游戏证据搜集](../library/game-evidence-collection/SKILL.md) | game-evidence-collection | 为单款游戏研究搜集并核对具体规则、版本、发行包、截图与操作过程，选择源码、发行物或多模态取证路径；由通用研究搜集按需调用，不用于一般游戏新闻或直接生成整作研究结论。 | 工作区维护 |
 | [游戏操作反馈](../library/game-feel/SKILL.md) | game-feel | 为机制已正确的命中、落地、拾取等事件选择震屏、顿帧、缓动与音画反馈配方，按重要性分档并保持恢复；不替代控制器、镜头跟随或玩法规则设计。 | [原仓库](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |
+| [游戏流程与资源图](../library/game-flow-diagrams/SKILL.md) | game-flow-diagrams | 当需要绘制或审查游戏流程图、玩法循环图或资源流转图时，沿真实构建标出玩家动作、状态转折与资源去向，核对反馈循环和移动端可读性。 | 工作区维护 |
 | [游戏美术与表现](../library/game-presentation/SKILL.md) | game-presentation | 按用途推进游戏美术、UI、动画和音效资源准备、真实引擎接入与可恢复验证；适用于表现升级，不用于纯玩法数值修改。 | 工作区维护 |
 | [游戏运行时模式](../library/game-runtime-patterns/SKILL.md) | game-runtime-patterns | 当游戏资源或场景生命周期、时间输入、坐标碰撞、规则视图、联机会话或性能复用存在具体缺口，或浏览器游戏缺少可核验操作回放时，选择宿主适配配方并验证；不用于引擎选型、纯美术或无缺口全量架构重建。 | 工作区维护 |
 | [游戏界面与操作体验](../library/game-ui-ux/SKILL.md) | game-ui-ux | 实现或修复游戏 HUD 与菜单的布局缩放、安全区、键鼠或手柄焦点、返回路径和状态更新；按当前引擎与宿主结构采用，不用于普通网页视觉风格或纯玩法规则。 | [原仓库](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) |

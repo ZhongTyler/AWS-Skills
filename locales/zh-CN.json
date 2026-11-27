@@ -128,6 +128,24 @@
       ]
     },
     {
+      "id": "document-organization",
+      "display_name_zh": "持续文档组织",
+      "description_zh": "组织或重构面向人读的清单、规划、资料索引、README与工作入口，保留查找、比较、续接和持续更新所需的信息功能。纯语句润色、代理执行合同和业务流程改造沿已有入口。",
+      "description_original": "组织或重构面向人读的清单、规划、资料索引、README与工作入口，保留查找、比较、续接和持续更新所需的信息功能。纯语句润色、代理执行合同和业务流程改造沿已有入口。",
+      "upstream_url": null,
+      "upstream_detail_url": null,
+      "upstream_revision": null,
+      "license": "MIT",
+      "origin_kind": "workspace_maintained_method",
+      "origin_label_zh": "工作区维护方法（此分类不作原创性认定）",
+      "provenance_evidence": [
+        {
+          "path": "library/document-organization/SKILL.md",
+          "sha256": "80ac88c5cc22de9da5c08f829260ce3787f83079c254b515ef81d0b9339538ee"
+        }
+      ]
+    },
+    {
       "id": "domain-modeling",
       "display_name_zh": "领域建模",
       "description_zh": "建立并梳理项目的领域模型。用于讨论代码中的业务术语、编写或调整术语表，以及记录或修改架构决策。",
@@ -255,6 +273,24 @@
       "provenance_evidence": []
     },
     {
+      "id": "game-development-portfolio",
+      "display_name_zh": "游戏开发作品介绍",
+      "description_zh": "组织在研游戏的作品介绍、完整详情和开发案例。按读者问题与版位选材，讲清游戏怎样运转、关键规则为何这样设计，以及成品长处是怎样做出来的。已发布游戏仅在需要讲开发过程时使用。Steam 短描述、纯玩法介绍、普通作品卡片和纯润色沿各自入口。",
+      "description_original": "组织在研游戏的作品介绍、完整详情和开发案例。按读者问题与版位选材，讲清游戏怎样运转、关键规则为何这样设计，以及成品长处是怎样做出来的。已发布游戏仅在需要讲开发过程时使用。Steam 短描述、纯玩法介绍、普通作品卡片和纯润色沿各自入口。",
+      "upstream_url": null,
+      "upstream_detail_url": null,
+      "upstream_revision": null,
+      "license": "MIT",
+      "origin_kind": "workspace_maintained_method",
+      "origin_label_zh": "工作区维护方法（此分类不作原创性认定）",
+      "provenance_evidence": [
+        {
+          "path": "library/game-development-portfolio/SKILL.md",
+          "sha256": "5ed862a8a629fd215bf4d0e4a19f1c15e067fab05c9efa6e7ed0d0e9fc635edf"
+        }
+      ]
+    },
+    {
       "id": "game-evidence-collection",
       "display_name_zh": "游戏证据搜集",
       "description_zh": "为单款游戏研究搜集并核对具体规则、版本、发行包、截图与操作过程，选择源码、发行物或多模态取证路径；由通用研究搜集按需调用，不用于一般游戏新闻或直接生成整作研究结论。",
@@ -282,6 +318,24 @@
         {
           "path": "library/game-feel/references/UPSTREAM.json",
           "sha256": "09997fd06c9314532a98cabac36a21ed80a6918aef9c59697f3d702e763ac8d5"
+        }
+      ]
+    },
+    {
+      "id": "game-flow-diagrams",
+      "display_name_zh": "游戏流程与资源图",
+      "description_zh": "当需要绘制或审查游戏流程图、玩法循环图或资源流转图时，沿真实构建标出玩家动作、状态转折与资源去向，核对反馈循环和移动端可读性。",
+      "description_original": "当需要绘制或审查游戏流程图、玩法循环图或资源流转图时，沿真实构建标出玩家动作、状态转折与资源去向，核对反馈循环和移动端可读性。",
+      "upstream_url": null,
+      "upstream_detail_url": null,
+      "upstream_revision": null,
+      "license": "MIT",
+      "origin_kind": "workspace_maintained_method",
+      "origin_label_zh": "工作区维护方法（此分类不作原创性认定）",
+      "provenance_evidence": [
+        {
+          "path": "library/game-flow-diagrams/SKILL.md",
+          "sha256": "19939669d4b17bd43f669d16161a97f01901868875911942aa7f0d9977f599f7"
         }
       ]
     },
@@ -638,7 +692,7 @@
       ]
     }
   ],
-  "publication_version": "2.2.1",
+  "publication_version": "2.3.0",
   "review": {
     "input_snapshot_sha256": "f02d6481d8a3cd83818a5d7054a03c234d02564fa15ac0c596a6c20ad53b5175",
     "source_application_sha256": "0de2baf9664bf48d6a2bb25e24de605d2b5857c2ae01fb152e97e3e1e46ea960",
@@ -648,5 +702,18 @@
     "actual_site_calls": 1,
     "original_live_status": "failed: Markdown code fence; original preserved",
     "host_normalized_review_status": "pass; no new model request"
-  }
+  },
+  "review_extensions": [
+    {
+      "version": "2.3.0",
+      "method_ids": [
+        "document-organization",
+        "game-development-portfolio",
+        "game-flow-diagrams"
+      ],
+      "review": "maintainer source/portability/wording review; existing case walkthroughs and document consumer feedback; no new copy-polish call",
+      "source_commit": "929514191b1e80bc43f046d57c23a69ed6966336",
+      "prior_42_rows_unchanged": true
+    }
+  ]
 }

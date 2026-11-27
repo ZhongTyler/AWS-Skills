@@ -563,9 +563,37 @@
         "references/steam-store.md": "c9f5142931d8e047aad3389dd4f03fdaee32323ad700df0065096f6a162b62c0",
         "SKILL.md": "b004cc00f7cc66d3f83d1a47de15baf7676656822bb76028345a820be8c26cb7"
       }
+    },
+    "document-organization": {
+      "destination": ".agents/skills/document-organization",
+      "source": "library/document-organization",
+      "version": "2.3.0",
+      "files": {
+        "README.zh-CN.md": "180b278aec4ac1707f2a9c46a8cfec9558bd9c8f1d4cd56196e5443d69c08491",
+        "SKILL.md": "80ac88c5cc22de9da5c08f829260ce3787f83079c254b515ef81d0b9339538ee"
+      }
+    },
+    "game-development-portfolio": {
+      "destination": ".agents/skills/game-development-portfolio",
+      "source": "library/game-development-portfolio",
+      "version": "2.3.0",
+      "files": {
+        "README.zh-CN.md": "3dae9968217b20317fe0a47181bda271db2247cadfd4c1eb1a6f368eef9584ee",
+        "references/full-project-detail.md": "4cd32d6edba9b52ca247d8f310c2d85236b6eae3ebb024881d4fc1b441703e5b",
+        "SKILL.md": "5ed862a8a629fd215bf4d0e4a19f1c15e067fab05c9efa6e7ed0d0e9fc635edf"
+      }
+    },
+    "game-flow-diagrams": {
+      "destination": ".agents/skills/game-flow-diagrams",
+      "source": "library/game-flow-diagrams",
+      "version": "2.3.0",
+      "files": {
+        "README.zh-CN.md": "9dff6d537a178073b2159cf66b3b94008153b55dec1600c817029d9ac82381ad",
+        "SKILL.md": "19939669d4b17bd43f669d16161a97f01901868875911942aa7f0d9977f599f7"
+      }
     }
   },
-  "previous_version": "2.2.1",
+  "previous_version": "2.2.2",
   "schema_version": 1,
-  "version": "2.2.2"
+  "version": "2.3.0"
 }

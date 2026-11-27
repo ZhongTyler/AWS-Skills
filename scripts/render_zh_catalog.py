@@ -14,8 +14,8 @@ def outputs():
     current = json.loads((ROOT / 'skills.json').read_text('utf-8'))
     rows = locale['skills']
     by_id = {row['id']: row for row in rows}
-    if len(rows) != 42 or len(by_id) != 42 or set(by_id) != set(catalog['components']):
-        raise ValueError('Chinese locale must match all 42 selectable IDs exactly')
+    if not rows or len(by_id) != len(rows) or set(by_id) != set(catalog['components']):
+        raise ValueError('Chinese locale must match all selectable IDs exactly')
     if {row['id'] for row in current['skills']} != set(by_id):
         raise ValueError('Reader index and selectable IDs differ')
     for row in rows:
@@ -67,7 +67,7 @@ def main():
         if args.apply:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(data)
-    print(json.dumps({'skills': 42, 'locale_sha256': hashlib.sha256(LOCALE.read_bytes()).hexdigest(),
+    print(json.dumps({'skills': len(generated) - 2, 'locale_sha256': hashlib.sha256(LOCALE.read_bytes()).hexdigest(),
                       'applied': args.apply, 'drift': drift}, ensure_ascii=False))
     return 0 if args.apply or not drift else 1
 
