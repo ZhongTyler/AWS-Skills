@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "base": "b6e93992e4054fe296b05e7c2e410e0ba852ba56",
+  "version": "2.3.1",
+  "checks": [
+    "all 45 payloads, original locale, licenses, scripts and manager exact",
+    "all component identities unchanged",
+    "codex real 2.3.0 upgrade preview read only",
+    "codex upgrade preserves receiver method edit",
+    "codex rollback rejects subsequent client state bytes",
+    "codex rollback restores real 2.3.0 state and receiver edit",
+    "codebuddy real 2.3.0 upgrade preview read only",
+    "codebuddy upgrade preserves receiver method edit",
+    "codebuddy rollback rejects subsequent client state bytes",
+    "codebuddy rollback restores real 2.3.0 state and receiver edit"
+  ],
+  "preserved_files": 285,
+  "clients": [
+    "codex",
+    "codebuddy"
+  ],
+  "new_model_calls": 0,
+  "reused": "Unchanged 2.3.0 67 checks and source/mirror results",
+  "failure_correction": "Actual b6 message has only its subject: missing Closure trailers, not literal newline escapes. Published history unchanged."
+}

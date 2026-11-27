@@ -1,5 +1,7 @@
 # Skills
 
+2.3.1 is a packaging and closure-message patch; all 45 method payloads are unchanged. See [upgrade and recovery](upgrades/2.3.1.md).
+
 The library contains 45 individually selectable methods.
 
 2.3.0 adds document-organization, game-development-portfolio and game-flow-diagrams. Each works independently with user-provided documents or game evidence. Optional editing and diagram methods do not require a private workspace, Tools or online service. See the [review](docs/2.3.0-review.md).
