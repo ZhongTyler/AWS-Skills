@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "skills",
   "name": "Skills",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "repository": "https://github.com/ZhongTyler/AWS-Skills.git",
   "payload": ".",
   "entrypoints": {

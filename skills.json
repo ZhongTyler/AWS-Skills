@@ -1,5 +1,5 @@
 {
-  "previous_version": "2.2.0",
+  "previous_version": "2.2.1",
   "schema_version": 1,
   "skills": [
     {
@@ -429,6 +429,6 @@
       "origin_kind": "recorded_external_method"
     }
   ],
-  "version": "2.2.1",
+  "version": "2.2.2",
   "reader_locale": "locales/zh-CN.json"
 }

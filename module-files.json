@@ -7,10 +7,10 @@
     "AGENTS.md": "c4d351aac39a83e5b0595a1f51f2316b8a581ae6abb70ba7f875c6e7e32db1d1",
     "LICENSE": "833d6fe27647cc75fef801dbe3a192ef4230447d878a69bfce70b80f7e9f518a",
     "README.en.md": "e876071ebc5dd89dd41440c4f42107de8152976b14fadf33a23369da65d34956",
-    "README.md": "1dee130ffc9e3c526ff32e3fe1f491c43cf136a99e348d92c95d82e673820fb8",
+    "README.md": "2ea969f5ef0474df50576e47f8bcb00b47757f130f091e9912bd748c7faf0e64",
     "THIRD_PARTY_NOTICES.md": "c92a7cf3428afeb3db6d6bf3bc68f4a5bb7eedf03e974fff4bb956a09f047e09",
-    "_release.json": "f17d1e3bf4018410d452924b1d9d9891787b3d34698bbd33f4a0aa5ebd57eb01",
-    "catalog.json": "1289d10fbea7f3915dc8c9f3b90ed1168258faaddb9f8d4e7e899a23895d5d1e",
+    "_release.json": "403703c383cc75221f730f8883ecbb7f0cb7f06ad6dd8173e566214350c003d4",
+    "catalog.json": "48a25af5aca47c533dbb154554d30154b6c6fdc662f67c04daadd93276d9cf5c",
     "docs/2.2.0-review.md": "85a305bf93cf91a2078d8582de90182839b8f40f1234dc3c293218f1ab273141",
     "docs/2.2.1-review.md": "46c5cc2a35daec84eb01ec03ff276c7e00b8705ddcea0961cedc123734afd3b4",
     "docs/localization-input.snapshot.zip": "f968e70ec1d007701b74ecb549ae3aae8997ddd6be85f5f47e19ae02ad3ab1eb",
@@ -292,11 +292,11 @@
     "library/writing-for-agents/agents/openai.yaml": "eacb24b2a618cfb81dacb0416f4fdd75ddf3a8060f8ddb99aae1b1e301907e4b",
     "library/writing-for-agents/references/UPSTREAM.json": "81091222b403662e5f42ca74e2a19ce3f88069aa8ecc4e7ad7d8f3560a42049b",
     "locales/zh-CN.json": "b842182bb82fa9661e325c65c71d92c6f05e7d4db76d901ea668ed2c41844ad0",
-    "module.json": "e783a71bdff6d36b4bc64f712084d88192d223c70ab0599a8a19227760ebeb97",
+    "module.json": "bae55d7b599f9844df09c30b89dcb0bae8195465319dbe24e20fe87a8c85870a",
     "scripts/_runtime.py": "227ee4d4b9a1f782acf5a6f184fa53516665b193036b90ee04db59376ce87098",
     "scripts/render_zh_catalog.py": "57bfef2356f83623eef29c73e2e71d961eba0b8e2b60be4bab1f174b1fe71fa2",
     "scripts/skills.py": "6a5580c901a39762d2406ea8294c48f6b88e967ae89f4eba9671fb06853a42c9",
-    "skills.json": "c4d294b76c08550242aa114c1cd98155216e88073125f3438f5e86157f3ca4bd",
+    "skills.json": "ee95a52b68f09eb4dcd04f536176a2adadf9e3721f27c1895a3bbdef659cfaf5",
     "upgrades/1.12.0.md": "8aa10c1accdacf5831d0039023352f089ff20ef96ea4afddcb8c7b661408f087",
     "upgrades/1.14.0.md": "a031d0b5ee02a57f28e0e23c648c86a537fff72af1065858e496fde4bd88a0d6",
     "upgrades/1.14.1.md": "f654279a97a3e38b1da6b5e950e63ea232d78e89acf7ecce8cda177d4d32a18c",
@@ -321,9 +321,10 @@
     "upgrades/2.0.0.md": "79e33e0613050ea158fa29178f144f3531ded7d7503c65e77fea51d12bc645a4",
     "upgrades/2.1.0.md": "7c18a5c8abd47301e8b76b26f40f5962e75927e1ac9432fd73002e4cc77f547a",
     "upgrades/2.2.0.md": "a682c4da439d0ad3233e79cf9617ad246500327897bc87c7415f8d07fc848967",
-    "upgrades/2.2.1.md": "5cc89d66c03f725d47b144db2ed18d3f9b909dedbc72b379fa8b24d60fa877be"
+    "upgrades/2.2.1.md": "5cc89d66c03f725d47b144db2ed18d3f9b909dedbc72b379fa8b24d60fa877be",
+    "upgrades/2.2.2.md": "d3a2fb423a4e683217430096395e641824b479bcc8d84dd415fce18c040c2b5f"
   },
   "id": "skills",
   "schema_version": 1,
-  "version": "2.2.1"
+  "version": "2.2.2"
 }
