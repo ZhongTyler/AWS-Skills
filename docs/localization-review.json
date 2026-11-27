@@ -1,0 +1,37 @@
+{
+  "status": "reviewed_for_publication",
+  "version": "2.2.1",
+  "site_final_snapshot_sha256": "f02d6481d8a3cd83818a5d7054a03c234d02564fa15ac0c596a6c20ad53b5175",
+  "canonical_locale_sha256": "b842182bb82fa9661e325c65c71d92c6f05e7d4db76d901ea668ed2c41844ad0",
+  "rows_equal_to_site_snapshot": true,
+  "only_locale_top_metadata_updated": true,
+  "candidate_description_changes": [
+    "anti-defensive-writing",
+    "eval-result-analysis",
+    "finesse-ui",
+    "game-runtime-patterns",
+    "game-ui-ux",
+    "interaction-design",
+    "session-handoff",
+    "task-tooling"
+  ],
+  "source_records": "16 external origins from preserved local provenance; null URL does not imply originality",
+  "original_live_receipt_status": "failed; preserved by website owner",
+  "actual_calls_by_website": 1,
+  "maintenance_model_calls": 0,
+  "host_review_status": "all 42 descriptions reviewed; 8 changes adopted after same-response normalization and semantic review",
+  "original_source_bytes_preserved": 228,
+  "existing_license_verification": {
+    "status": "corrected_existing_license_confirmed",
+    "baseline": "dac1fa95f1224dff318d722979f49c2538166303",
+    "existing_path": "library/systematic-debugging/references/LICENSE",
+    "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+    "finding": "Baseline already ships the exact pinned upstream MIT license under references. Earlier missing-license statement checked only the directory root and was incomplete. Redundant candidate root LICENSE was removed. No license addition, edit or relicense remains."
+  },
+  "site_snapshot_archive": {
+    "path": "docs/localization-input.snapshot.zip",
+    "entry": "mapping-reviewed.json",
+    "archive_sha256": "f968e70ec1d007701b74ecb549ae3aae8997ddd6be85f5f47e19ae02ad3ab1eb",
+    "entry_sha256": "f02d6481d8a3cd83818a5d7054a03c234d02564fa15ac0c596a6c20ad53b5175"
+  }
+}

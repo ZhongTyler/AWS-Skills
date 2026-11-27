@@ -117,3 +117,7 @@ flowchart LR
 ~~~
 
 图表示文档路由与职责，不代表已测得自动选路准确率。缺工具时沿宿主方法；安装验证不证明方法效果、艺术采用或长期节时。
+
+## 中文名称、简介与来源
+
+42项方法的[中文目录](docs/skills.zh-CN.md)与各目录中的README.zh-CN.md来自同一份[中文映射](locales/zh-CN.json)。英文ID用于调用，外部方法附原仓库与来源记录。skills.json的人读字段由scripts/render_zh_catalog.py生成；上游正文、代码和既有许可保持原样。

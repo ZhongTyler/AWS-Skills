@@ -2,12 +2,18 @@
   "release_schema": 1,
   "component_id": "skills",
   "generator_version": "standalone-review-1",
-  "source_revision": "b9534b297957e73066db16863fead90a1cf48dee",
-  "version": "2.2.0",
-  "previous_version": "2.1.0",
+  "source_revision": "dac1fa95f1224dff318d722979f49c2538166303",
+  "version": "2.2.1",
+  "previous_version": "2.2.0",
   "public_skills": 42,
   "preview": true,
-  "generated_at": "2026-11-27T00:50:32.513122+08:00",
-  "catalog_sha256": "4bd1239f07efd6f502a5dae09810482b2160d9d77e16c19e5d06ac6033693ae5",
-  "file_count": 273
+  "generated_at": "2026-11-27T10:05:56.362235+08:00",
+  "catalog_sha256": "1289d10fbea7f3915dc8c9f3b90ed1168258faaddb9f8d4e7e899a23895d5d1e",
+  "file_count": 322,
+  "localization": {
+    "status": "reviewed_for_publication",
+    "canonical_locale_sha256": "b842182bb82fa9661e325c65c71d92c6f05e7d4db76d901ea668ed2c41844ad0",
+    "site_snapshot_sha256": "f02d6481d8a3cd83818a5d7054a03c234d02564fa15ac0c596a6c20ad53b5175",
+    "review_record_sha256": "ed4717530f1576a8fa5fc1fb66d450939bc7a3f3084ea2c8d40d4c0dbdb97500"
+  }
 }

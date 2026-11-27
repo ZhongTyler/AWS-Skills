@@ -62,3 +62,7 @@ flowchart LR
 ~~~
 
 This is documented routing, not measured automatic selection. Tools remain optional. Installation checks establish packaging and recovery, not method effectiveness or long-term savings.
+
+## Chinese reader catalog
+
+See the [Chinese catalog](docs/skills.zh-CN.md) and per-skill README.zh-CN.md entries, generated from [one locale source](locales/zh-CN.json). Invocation IDs and original methods remain unchanged. External origins follow preserved provenance records. Run python scripts/render_zh_catalog.py to check generated reader fields.
